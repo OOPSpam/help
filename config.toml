@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://oopspam.com/"
+baseURL = "https://oopspam.com/help"
 # theme
 theme = "dot"
 # site title
