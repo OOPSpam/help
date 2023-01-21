@@ -54,9 +54,9 @@ unsafe= true
 ############################# Default Parameters ##########################
 [params]
 # logo is for all page
-logo = "https://www.oopspam.com/assets/oopspamLogo.svg"
+logo = "/help/images/oopspamLogo.svg"
 # logo white is for homepage logo, you can use colorful logo too...
-logo_white = "/images/oopspam-logo-white.svg"
+logo_white = "/help/images/oopspam-logo-white.svg"
 # when logo is empty, it will shown your site title
 
 # customize color
