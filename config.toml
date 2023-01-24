@@ -4,7 +4,7 @@ baseURL = "https://oopspam.com/help"
 # theme
 theme = "dot"
 # site title
-title = "OOPSpam Knowledge base"
+title = "OOPSpam Knowledge Base"
 # disable language
 disableLanguages = ["fr"]
 # google analytics
@@ -53,6 +53,13 @@ unsafe= true
 
 ############################# Default Parameters ##########################
 [params]
+description = "Get step-by-step instructions on how to set up and use the OOPSpam API and WordPress plugin to protect your website from spam. Learn about supported integrations, privacy settings, and troubleshooting tips."
+sitename = "OOPSpam"
+author = "OOPSpam"
+github = "https://github.com/OOPSpam"
+ogimage = "/help/images/oopspam-knowledgebase-meta.png"
+twitter = "@oopspamapi"
+
 # logo is for all page
 logo = "/help/images/oopspamLogo.svg"
 # logo white is for homepage logo, you can use colorful logo too...
