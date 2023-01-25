@@ -119,4 +119,4 @@ content = ""
 [Languages.en.params.cta.button]
 enable = true
 label = "contact us"
-link = "contact"
+link = "https://www.oopspam.com/#contact"
