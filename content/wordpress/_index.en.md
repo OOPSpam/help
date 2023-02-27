@@ -1,6 +1,7 @@
 ---
 title: "WordPress integration"
-date: 2022-01-11T11:02:05+06:00
+date: 2023-01-11T11:02:05+06:00
+lastmod: 2023-02-27T10:42:26+06:00
 icon: "ti-wordpress"
 description: "Learn how to set up OOPSpam WordPress Plugin and protect your forms and comments from spam"
 type : "docs"
@@ -21,6 +22,7 @@ The following contact form solutions are supported by the OOPSpam plugin:
 - Elementor Forms
 - Ninja Forms
 - Gravity Forms
+- Kadence Form Block
 - Fluent Forms
 - WS Form
 - Bricks Forms
@@ -31,6 +33,8 @@ The following contact form solutions are supported by the OOPSpam plugin:
 - Contact Form 7
 - GiveWP Donation Forms
 - WooCommerce Order & Registration
+
+See [the plugin description](https://wordpress.org/plugins/oopspam-anti-spam/) on the WordPress plugin directory for more.
 
 ### Installation
 
