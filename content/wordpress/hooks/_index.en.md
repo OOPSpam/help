@@ -8,16 +8,21 @@ draft: false
 keywords: ["hook" , "filter", "action"]
 ---
 
-You can overwrite spam filtering in the OOPSpam WordPress plugin using the `oopspam_check_for_spam` filter.
+You can overwrite spam filtering in the OOPSpam WordPress plugin using the `oopspam_check_for_spam` filter and return a score based on your own logic.
+
+In some cases where you can use it:
+
+- Allow and block certain IPs
+- Allow and block certain emails
+- Block based on some keywords
+- and more.
 
 In your theme's `functions.php` page or anywhere else, add the following code:
 
 ```php
 add_filter('oopspam_check_for_spam', 'mycustom_spam_check', 10, 3);
-
 function mycustom_spam_check($message, $ip, $email) {
     // Your custom logic
-
     // Return 0 for ham/not spam or 6 for spam.
     return 6;
 }
