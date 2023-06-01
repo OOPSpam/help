@@ -28,4 +28,5 @@ function mycustom_spam_check($message, $ip, $email) {
 }
 ```
 
-The returned value can be any value from 0 to 6. We recommend keeping it simple and returning `0` for not spam, and `6` for spam entries.
+The returned value can be any value from `0` to `6`.
+We recommend keeping it simple and returning `0` for not spam, and `6` for spam entries.
