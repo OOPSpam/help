@@ -16,7 +16,7 @@ The OOPSpam WordPress plugin requires minimal configuration to function properly
 
 To get started quickly, follow these steps:
 
-1. Register on the OOPSpam Dashboard and copy the API key.
+1. Register on the [OOPSpam Dashboard](https://app.oopspam.com/) and copy the API key.
 2. Paste the key into the "My API Key" field in the OOPSpam WordPress Settings.
 3. Select "OOPSpam Dashboard" from the "I got my API Key from" setting.
 4. Ensure that the "Activate Spam Protection" option is checked for the contact form plugin you are using.
@@ -34,7 +34,7 @@ To get started quickly, follow these steps:
 
 ### Contact form specific settings
 
-When [a supported contact form builder]((../#supported-contact-form-builders)) is installed, the OOPSpam WordPress plugin will automatically detect it and display relevant settings. 
+When [a supported contact form builder](../#supported-contact-form-builders) is installed, the OOPSpam WordPress plugin will automatically detect it and display relevant settings. 
 For example, if the plugin detects that you have installed the Elementor Page Builder, it will display specific settings for Elementor Forms.
 
 ![Elementor Forms in OOPSpam WordPress plugin](oopspam-ef-settings.png)
@@ -67,7 +67,11 @@ The OOPSpam WordPress plugin offers two methods to prevent unwanted submissions,
 
 ![Spam filter by country and language](country-language-filter.png)
 
+![Block by country](wp-block-countries.png)
+
 **Allow messages only from these countries**: This setting allows you to specify which countries you want to allow submissions from. By adding countries here, you can quickly limit submissions to only those countries, while still keeping your website accessible worldwide.
+
+**Block messages from these countries**: This setting allows you to specify which countries you want to block submissions from.
 
 **Allow messages only in these languages**: If your contact form includes a message field, you can use this filter to only allow submissions written in specific languages. This is another way to limit the submissions you receive through your contact form.
 
@@ -96,7 +100,7 @@ There are additional settings that you may find useful:
 - **Move spam comments to**:  By default, the OOPSpam plugin will move a spam comment to the Spam folder in [Comments](https://wordpress.org/documentation/article/comments-in-wordpress/). You can change this setting to move it to the Trash folder instead.
 - **Consider short messages as spam**: Many spam messages are too short to be a meaningful sentence. This setting allows you to catch this type of spam.
 
-The OOPSpam WordPress plugin also includes two additional menus: [Form Spam Entries and Form Ham Entries]((../form-entries)). These menus allow you to view and manage the submissions that the plugin has identified as spam or legitimate messages (ham).
+The OOPSpam WordPress plugin also includes two additional menus: [Form Spam Entries and Form Ham Entries](../form-entries). These menus allow you to view and manage the submissions that the plugin has identified as spam or legitimate messages (ham).
 
 ![Form Spam and Ham Entries in OOPSpam WordPress plugin ](form-entries.png)
  

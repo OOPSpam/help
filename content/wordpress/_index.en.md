@@ -9,7 +9,7 @@ type : "docs"
 
 ### Introduction
 
-[The OOPSpam plugin for WordPress]((https://wordpress.org/plugins/oopspam-anti-spam/)) integrates with the OOPSpam API to protect your website's comment system, registration, and major contact form builders from spam.
+[The OOPSpam plugin for WordPress](https://wordpress.org/plugins/oopspam-anti-spam/) integrates with the OOPSpam API to protect your website's comment system, registration, and major contact form builders from spam.
 
 {{< notice note >}}
   When someone fills out and submits your contact or comment form, the OOPSpam plugin checks the submission for spam. This is done by analyzing the IP address, email address, and message content of the submission. If the plugin detects any characteristics commonly associated with spam, it will mark the submission as spam and prevent it from reaching you. This helps to protect your website and keep your inbox free of unwanted messages.
@@ -19,20 +19,24 @@ type : "docs"
 
 The following contact form solutions are supported by the OOPSpam plugin:
 
+- WooCommerce Order & Registration
 - Elementor Forms
 - Ninja Forms
 - Gravity Forms
 - Kadence Form Block
 - Fluent Forms
+- Breakdance Forms
 - WS Form
-- Bricks Forms
+- WPDiscuz
+- Forminator
 - WPForms
-- Toolset Forms
 - Formidable Forms
-- Piotnet Forms
 - Contact Form 7
+- Bricks Forms
+- Toolset Forms
+- Piotnet Forms 
 - GiveWP Donation Forms
-- WooCommerce Order & Registration
+- MailPoet
 
 See [the plugin description](https://wordpress.org/plugins/oopspam-anti-spam/) on the WordPress plugin directory for more.
 
