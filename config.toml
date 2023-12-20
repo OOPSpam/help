@@ -78,7 +78,7 @@ light_color = "#f8f9fa"
 font_family = "lato" # Choose font family from : https://fonts.google.com/
 
 # contact form action
-contact_form_action = "https://hook.us1.make.com/uegx07wh3dgg9yi5933hfowxwdcl2jol" # contact form works with : https://formspree.io
+contact_form_action = "#" # contact form works with : https://formspree.io
 
 
 ############################## social links ##############################
