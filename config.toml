@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://oopspam.com/help"
+baseURL = "https://help.oopspam.com/"
 # theme
 theme = "dot"
 # site title
@@ -57,13 +57,15 @@ description = "Get step-by-step instructions on how to set up and use the OOPSpa
 sitename = "OOPSpam"
 author = "OOPSpam"
 github = "https://github.com/OOPSpam"
-ogimage = "/help/images/oopspam-knowledgebase-meta.png"
+ogimage = "/images/oopspam-knowledgebase-meta.png"
 twitter = "@oopspamapi"
+forceHTTPS = true
+
 
 # logo is for all page
-logo = "/help/images/oopspamLogo.svg"
+logo = "/images/oopspamLogo.svg"
 # logo white is for homepage logo, you can use colorful logo too...
-logo_white = "/help/images/oopspam-logo-white.svg"
+logo_white = "/images/oopspam-logo-white.svg"
 # when logo is empty, it will shown your site title
 
 # customize color
@@ -78,7 +80,7 @@ light_color = "#f8f9fa"
 font_family = "lato" # Choose font family from : https://fonts.google.com/
 
 # contact form action
-contact_form_action = "#" # contact form works with : https://formspree.io
+# contact_form_action = "#" # contact form works with : https://formspree.io
 
 
 ############################## social links ##############################
