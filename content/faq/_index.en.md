@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-draft: false
+draft: true
 ---
 
 {{< faq "Will updates also be free?" >}}
