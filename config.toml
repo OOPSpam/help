@@ -103,7 +103,7 @@ languageName = "En"
 languageCode = "en-us"
 weight = 1
 home = "Back to oopspam.com"
-copyright = "© 2017 - 2023 OOPSpam LLC"
+copyright = "© 2017 - 2024 OOPSpam LLC"
 
 # banner
 [Languages.en.params.banner]
