@@ -1,16 +1,16 @@
 ---
 title: "Zapier"
 date: 2023-01-18T11:02:05+06:00
-lastmod: 2023-02-27T10:42:26+06:00
+lastmod: 2024-02-20T10:42:26+06:00
 weight: 2
 draft: false
 # search related keywords
-keywords: [""]
+keywords: ["zapier"]
 ---
 
 ### Connect OOPSpam to hundreds of other apps with Zapier
 
-[Zapier](https://zapier.com/apps/OOPSpam/integrations) lets you connect OOPSpam to 2,000+ other web services. Automated connections called Zaps, set up in minutes with no coding, can automate your day-to-day tasks and build workflows between apps that otherwise wouldn't be possible.
+[Zapier](https://zapier.com/apps/OOPSpam/integrations) lets you connect OOPSpam to 6,000+ other web services. Automated connections called Zaps, set up in minutes with no coding, can automate your day-to-day tasks and build workflows between apps that otherwise wouldn't be possible.
 
 Each Zap has one or more **Triggers**, where your information comes from and which causes OOPSpam _Check for Spam_ **Action** in OOPSpam.
 
@@ -35,3 +35,6 @@ If you have any additional questions, you can open a ticket with Zapier Support 
 Related blog posts:
 
 - [Stop spam on Webflow contact forms using Zapier and OOPSpam](https://www.oopspam.com/blog/webflow-contactform-spam)
+- [Stop spam on Netlify Forms using Zapier and OOPSpam](https://www.oopspam.com/blog/netlify-contactform-spam)
+- [Stop spam on HubSpot contact forms using Zapier and OOPSpam](https://www.oopspam.com/blog/hubspot-contactform-spam)
+- [Stop spam on Typeform using Zapier and OOPSpam](https://www.oopspam.com/blog/typeform-form-spam)

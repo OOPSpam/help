@@ -75,6 +75,14 @@ The OOPSpam WordPress plugin offers two methods to prevent unwanted submissions,
 
 **Allow messages only in these languages**: If your contact form includes a message field, you can use this filter to only allow submissions written in specific languages. This is another way to limit the submissions you receive through your contact form.
 
+### Manually block email, IP, keyword
+
+The plugin automatically spam checks every form submission, registration, comment with the OOPSpam API. But sometimes you may want to quickly block email, IP address or a keyword in the message. To block manually you can use the `Manual Moderation` tab in the plugin settings.
+
+Add the email, IP address or keyword to the appropriate field in the `Manual Moderation' tab. Add one item per line.
+
+![Block by email, IP, keyword](manual-moderation.png)
+
 ### Privacy settings
 
 We are committed to providing our customers with the best possible privacy options. To effectively detect spam, OOPSpam only needs a minimal amount of data. When a user submits a comment or contact form, the plugin collects the user's IP address, email, and message content. It then sends this information to the OOPSpam API for spam detection.
