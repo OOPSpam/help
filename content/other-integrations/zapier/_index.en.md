@@ -1,7 +1,7 @@
 ---
 title: "Zapier"
 date: 2023-01-18T11:02:05+06:00
-lastmod: 2024-02-20T10:42:26+06:00
+lastmod: 2024-05-15T10:42:26+06:00
 weight: 2
 draft: false
 # search related keywords
@@ -38,3 +38,7 @@ Related blog posts:
 - [Stop spam on Netlify Forms using Zapier and OOPSpam](https://www.oopspam.com/blog/netlify-contactform-spam)
 - [Stop spam on HubSpot contact forms using Zapier and OOPSpam](https://www.oopspam.com/blog/hubspot-contactform-spam)
 - [Stop spam on Typeform using Zapier and OOPSpam](https://www.oopspam.com/blog/typeform-form-spam)
+
+### False positive and false negative reporting
+
+To report false positives and false negatives, see [the reporting documentation](/report).
