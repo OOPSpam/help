@@ -1,7 +1,6 @@
 ---
 title: "Troubleshooting"
-date: 2023-01-19T10:42:26+06:00
-lastmod: 2023-12-20T10:42:26+06:00
+date: 2024-10-21T11:02:05+06:00
 weight: 4
 draft: false
 # search related keywords

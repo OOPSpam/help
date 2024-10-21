@@ -2,43 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:50192/wordpress/configuration/</loc>
+    <loc>//localhost:1313/wordpress/configuration/</loc>
     <lastmod>2023-01-19T11:02:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:50192/other-integrations/zapier/</loc>
-    <lastmod>2024-02-20T10:42:26+06:00</lastmod>
+    <loc>//localhost:1313/intro/</loc>
   </url><url>
-    <loc>http://localhost:50192/other-integrations/make/</loc>
-    <lastmod>2023-01-18T10:42:26+06:00</lastmod>
+    <loc>//localhost:1313/other-integrations/zapier/</loc>
+    <lastmod>2024-05-15T10:42:26+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:50192/wordpress/hooks/</loc>
-    <lastmod>2023-06-01T11:02:05+06:00</lastmod>
+    <loc>//localhost:1313/wordpress/</loc>
+    <lastmod>2023-01-11T11:02:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:50192/wordpress/testing/</loc>
-    <lastmod>2023-02-04T11:02:05+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50192/wordpress/form-entries/</loc>
-    <lastmod>2023-01-19T10:42:26+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50192/wordpress/troubleshooting/</loc>
-    <lastmod>2023-12-20T10:42:26+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50192/other-integrations/bubble-io/</loc>
-    <lastmod>2023-01-18T10:42:26+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50192/</loc>
-    <lastmod>2024-05-06T11:02:05+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50192/other-integrations/</loc>
+    <loc>//localhost:1313/other-integrations/</loc>
     <lastmod>2023-02-27T11:02:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:50192/wordpress/</loc>
-    <lastmod>2023-02-27T10:42:26+06:00</lastmod>
+    <loc>//localhost:1313/other-integrations/make/</loc>
+    <lastmod>2024-05-15T10:42:26+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:50192/categories/</loc>
+    <loc>//localhost:1313/report/</loc>
+    <lastmod>2024-05-15T10:42:26+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:50192/faq/</loc>
+    <loc>//localhost:1313/wordpress/hooks/</loc>
+    <lastmod>2023-06-01T11:02:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:50192/tags/</loc>
+    <loc>//localhost:1313/wordpress/testing/</loc>
+    <lastmod>2023-02-04T11:02:05+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/wordpress/form-entries/</loc>
+    <lastmod>2023-01-19T10:42:26+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/wordpress/troubleshooting/</loc>
+    <lastmod>2023-12-20T10:42:26+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/other-integrations/bubble-io/</loc>
+    <lastmod>2024-05-15T10:42:26+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-05-15T10:42:26+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

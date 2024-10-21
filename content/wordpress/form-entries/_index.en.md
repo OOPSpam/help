@@ -1,12 +1,13 @@
 ---
-title: "Form Spam Entires and Form Ham Entries"
-date: 2023-01-19T10:42:26+06:00
-lastmod: 2023-01-19T10:42:26+06:00
+title: "Logs"
+date: 2024-10-21T11:02:05+06:00
 weight: 4
 draft: false
 # search related keywords
 keywords: [""]
 ---
+
+## Logs in the WordPress Dashboard
 
 When you enable spam protection for your contact forms, every submission will be stored in one of two places: the Form Ham Entries or the Form Spam Entries.
 
@@ -27,6 +28,8 @@ To report a falsely flagged entry to OOPSpam:
 By default, both the Form Ham Entries and Form Spam Entries tables will be emptied automatically once every month. This helps keep the size of the tables manageable and does not affect the performance of the OOPSpam plugin or the accuracy of the spam detection.
 
 You can change the interval at which the tables are cleared by using the [**Empty “Form Spam Entries” table every** and **Empty “Form Ham Entries” table every** settings](../configuration/#additional-settings) in the OOPSpam plugin settings in your WordPress dashboard.
+
+## Logs in the OOPSpam Dashboard 
 
 You can also view these reported entries on [the OOPSpam Dashboard under the "Reported" section](https://app.oopspam.com/ReportedSpam). This allows you to easily track and review all reported entries, and help OOPSpam improve its spam detection algorithms.
 

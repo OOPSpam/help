@@ -1,0 +1,71 @@
+# Hugo configuration file
+title: OOPSpam Support Center & Knowledge base
+
+
+# import hextra as module
+module:
+  imports:
+  - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  sidebar:
+    - name: More
+      params:
+        type: separator
+      weight: 1
+    - name: "Get an API key ↗"
+      url: "https://app.oopspam.com"
+      weight: 2
+    - name: "API Documentation ↗"
+      url: "https://www.oopspam.com/docs/#introduction"
+      weight: 3
+  main:
+    - name: Documentation
+      pageRef: /
+      weight: 1
+    - name: OOPSpam ↗
+      url: "https://www.oopspam.com"
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: Linkedin
+      weight: 4
+      url: "https://www.linkedin.com/company/oopspam/"
+      params:
+        icon: linkedin
+    - name: Twitter
+      weight: 5
+      url: "https://twitter.com/oopspamapi"
+      params:
+        icon: x-twitter
+
+params:
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-white.svg
+      link: /
+      width: 100
+      height: 100
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/oopspam/help/edit/main/content"

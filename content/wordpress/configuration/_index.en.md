@@ -1,7 +1,7 @@
 ---
 title: "Configuration"
-date: 2023-01-19T11:02:05+06:00
-lastmod: 2023-01-19T11:02:05+06:00
+breadcrumbs: false
+date: 2024-10-21T11:02:05+06:00
 weight: 1
 draft: false
 # search related keywords
@@ -17,19 +17,20 @@ The OOPSpam WordPress plugin requires minimal configuration to function properly
 To get started quickly, follow these steps:
 
 1. Register on the [OOPSpam Dashboard](https://app.oopspam.com/) and copy the API key.
-2. Paste the key into the "My API Key" field in the OOPSpam WordPress Settings.
-3. Select "OOPSpam Dashboard" from the "I got my API Key from" setting.
-4. Ensure that the "Activate Spam Protection" option is checked for the contact form plugin you are using.
+2. Paste the key into the **"My API Key"** field in the OOPSpam WordPress Settings.
+3. Select **"OOPSpam Dashboard"** from the **"I got my API Key from"** setting.
+4. Ensure that the **"Activate Spam Protection"** option is checked for the contact form plugin you are using.
 
 ![Activate Spam Protection setting in OOPSpam WordPress plugin](OOPSpam-WooCommerce-Settings.png)
 
-{{< notice note >}}
-  Spam protection for comments is enabled by default.
-{{< /notice >}}
 
-{{< notice tip >}}
-  **The Sensitivity Level setting** in the OOPSpam plugin controls how aggressively the plugin checks submissions for spam. The default setting is 3, which is a balance between catching spam and avoiding false positives (legitimate submissions marked as spam). **We recommend leaving the Sensitivity Level setting at 3, as this will provide the best overall performance**. However, if you believe that the default setting is not a good fit for your website, please reach out to our support team for assistance.
-{{< /notice >}}
+{{< callout >}}
+  Spam protection for comments is enabled by default.
+{{< /callout >}}
+
+{{< callout type="info" >}}
+  **The Sensitivity Level setting** in the OOPSpam plugin controls how aggressively the plugin checks submissions for spam. The default setting is 3, which is a balance between catching spam and avoiding false positives (legitimate submissions marked as spam). **We recommend using the 'Moderation' option for the Sensitivity Level setting. This balanced option typically provides the best combination of spam detection accuracy and minimal false positives for most users.**. However, if you believe that the default setting is not a good fit for your website, please reach out to our support team for assistance.
+{{< /callout >}}
 
 
 ### Contact form specific settings
@@ -87,19 +88,21 @@ Add the email, IP address or keyword to the appropriate field in the `Manual Mod
 
 We are committed to providing our customers with the best possible privacy options. To effectively detect spam, OOPSpam only needs a minimal amount of data. When a user submits a comment or contact form, the plugin collects the user's IP address, email, and message content. It then sends this information to the OOPSpam API for spam detection.
 
-{{< notice note >}}
-The OOPSpam plugin does not store any personal data that is submitted through the APIs. All data is stored in your local WordPress database. If you encounter any false positive or false negatives, you have the option to submit them to us for review. This allows the system to improve itself based on your report and the data will be deleted within a week.
-{{< /notice >}}
+{{< callout type="warning" >}}
+The OOPSpam plugin does not store any personal data that is submitted through the APIs. All data is stored in your local WordPress database. 
+
+If you encounter any false positive or false negatives, you have the option to submit them to us for review. This allows the system to improve itself based on your report and the data will be deleted within a week.
+{{< /callout >}}
 
 ![ Spam Privacy setting in OOPSpam WordPress plugin ](oopspam-privacy-settings.png)
 
 Here we have three settings:
 
-**Do not analyze IP addresses**: When this setting is enabled, the plugin will not send the IP address of a submission to our servers for spam detection.
+1. **Do not analyze IP addresses**: When this setting is enabled, the plugin will not send the IP address of a submission to our servers for spam detection.
 
-**Do not analyze Email addresses**: When this setting is enabled, the plugin will not send the email address of a submission to our servers for spam detection.
+2. **Do not analyze Email addresses**: When this setting is enabled, the plugin will not send the email address of a submission to our servers for spam detection.
 
-**Remove sensitive information from messages**: When this setting is enabled, the plugin will attempt to detect and remove any personal information such as email addresses, street addresses, phone numbers, and first and last names from the message. It is important to note, however, that there is no guarantee that all personal information will be accurately removed.
+3. **Remove sensitive information from messages**: When this setting is enabled, the plugin will attempt to detect and remove any personal information such as email addresses, street addresses, phone numbers, and first and last names from the message. It is important to note, however, that there is no guarantee that all personal information will be accurately removed.
 
 ### Additional settings
 
@@ -116,6 +119,6 @@ The OOPSpam WordPress plugin also includes two additional menus: [Form Spam Entr
 - **Empty "Form Ham Entries" table every**: Allows you to set an interval for automatically removing all entries in the Form Ham Entries table. This table holds all the legitimate submissions (non-spam) to your website. The default interval is set to one month.
 
 
-{{< notice tip >}}
-  Check [Form Spam Entries and Form Ham Entries page](../form-entries) to learn more about these tables.
-{{< /notice >}}
+{{< callout type="info" >}}
+  Check [Logs](../form-entries) to learn more about these tables.
+{{< /callout >}}

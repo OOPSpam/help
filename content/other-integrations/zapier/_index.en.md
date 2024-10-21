@@ -1,7 +1,6 @@
 ---
 title: "Zapier"
-date: 2023-01-18T11:02:05+06:00
-lastmod: 2024-05-15T10:42:26+06:00
+date: 2024-10-21T11:02:05+06:00
 weight: 2
 draft: false
 # search related keywords
@@ -32,13 +31,25 @@ Sign up for a free [Zapier](https://zapier.com/apps/OOPSpam/integrations) accoun
 
 If you have any additional questions, you can open a ticket with Zapier Support from https://zapier.com/OOPSpam/get-help or contact OOPSpam support via contact@oopspam.com.
 
-Related blog posts:
+### False positive and false negative reporting
+
+To report false positives and false negatives, see [the reporting documentation](/report).
+
+### Related blog posts:
 
 - [Stop spam on Webflow contact forms using Zapier and OOPSpam](https://www.oopspam.com/blog/webflow-contactform-spam)
 - [Stop spam on Netlify Forms using Zapier and OOPSpam](https://www.oopspam.com/blog/netlify-contactform-spam)
 - [Stop spam on HubSpot contact forms using Zapier and OOPSpam](https://www.oopspam.com/blog/hubspot-contactform-spam)
 - [Stop spam on Typeform using Zapier and OOPSpam](https://www.oopspam.com/blog/typeform-form-spam)
 
-### False positive and false negative reporting
 
-To report false positives and false negatives, see [the reporting documentation](/report).
+## Next
+
+Dive right into the following section to get started:
+
+{{< cards cols="4">}}
+{{< card link="https://www.oopspam.com/docs/" title="OOPSpam API ↗" icon="code" subtitle="Integrate custom solutions with the OOPSpam API." >}}
+{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the OOPSpam WordPress plugin." >}}
+{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate OOPSpam into Zapier, Make, or Bubble.io workflows." >}}
+{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train OOPSpam to adapt to your specific use case." >}}
+{{< /cards >}}

@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Configuration on OOPSpam Knowledge Base</title>
-    <link>http://localhost:50192/wordpress/configuration/</link>
-    <description>Recent content in Configuration on OOPSpam Knowledge Base</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>© 2017 - 2024 OOPSpam LLC</copyright>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:50192/wordpress/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <title>OOPSpam Support Center &amp; Knowledge base – Configuration</title>
+    <link>//localhost:1313/wordpress/configuration/</link>
+    <description>Recent content in Configuration on OOPSpam Support Center &amp; Knowledge base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Jan 2023 11:02:05 +0600</lastBuildDate>
+    
+	  <atom:link href="//localhost:1313/wordpress/configuration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
   </channel>
 </rss>

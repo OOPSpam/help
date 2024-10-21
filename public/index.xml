@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>OOPSpam Knowledge Base</title>
-    <link>http://localhost:50192/</link>
-    <description>Recent content on OOPSpam Knowledge Base</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>© 2017 - 2024 OOPSpam LLC</copyright>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:50192/index.xml" rel="self" type="application/rss+xml" />
+    <title>OOPSpam Support Center &amp; Knowledge base – Hextra Theme</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Hextra Theme on OOPSpam Support Center &amp; Knowledge base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 May 2024 10:42:26 +0600</lastBuildDate>
+    
+	  <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+      
+    
+    
   </channel>
 </rss>
