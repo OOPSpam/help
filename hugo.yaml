@@ -16,6 +16,9 @@ markup:
   # enable hextra syntax highlight
   highlight:
     noClasses: false
+    copy:
+      enable: true
+      display: hover
 
 menu:
   sidebar:
@@ -52,6 +55,8 @@ menu:
         icon: x-twitter
 
 params:
+  images:
+    - "/oopspam-knowledgebase-meta.png"
   navbar:
     displayTitle: false
     displayLogo: true
