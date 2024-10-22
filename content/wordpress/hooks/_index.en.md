@@ -5,6 +5,7 @@ weight: 4
 draft: false
 # search related keywords
 keywords: ["hook" , "filter", "action"]
+description: "Learn about available hooks in the OOPSpam WordPress plugin and how to use them."
 ---
 
 The plugins comes with two hooks:

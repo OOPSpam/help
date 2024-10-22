@@ -6,6 +6,7 @@ weight: 1
 draft: false
 # search related keywords
 keywords: [""]
+description: "Set up OOPSpam WordPress plugin in minutes. Learn how to configure your API key, adjust sensitivity settings, and enable protection for contact forms and comments."
 ---
 
 ### Quick set up

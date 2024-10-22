@@ -5,6 +5,7 @@ weight: 4
 draft: false
 # search related keywords
 keywords: [""]
+description: "Manage spam and legitimate form submissions in OOPSpam. Learn how to review entries, report false positives, and maintain your forms efficiently."
 ---
 
 ## Logs in the WordPress Dashboard

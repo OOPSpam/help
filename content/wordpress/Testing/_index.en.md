@@ -5,6 +5,8 @@ weight: 4
 draft: false
 # search related keywords
 keywords: ["testing, test"]
+description: "Learn how to test OOPSpam's spam protection using sample blocked emails and messages. Verify your setup is working correctly with our testing guide."
+
 ---
 
 After installing and configuring OOPSpam, test your contact form or comments by using one of the blocked email addresses or the message listed in the table below. Upon submission, you should expect to receive an error message.

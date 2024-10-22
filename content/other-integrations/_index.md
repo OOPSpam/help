@@ -2,7 +2,7 @@
 title: "Other integrations"
 date: 2023-02-27T11:02:05+06:00
 breadcrumbs: false
-description: "Zapier, Make and Bubble.io integrations"
+description: "The official OOPSpam Zapier, Make and Bubble.io integrations"
 type : "docs"
 weight: 3
 ---

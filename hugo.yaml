@@ -57,6 +57,8 @@ menu:
 params:
   images:
     - "/oopspam-knowledgebase-meta.png"
+  description: "Protect your website from spam with OOPSpam's API & WordPress plugin. Includes integrations with Make, Zapier, Bubble.io, plus setup guides & privacy settings."
+
   navbar:
     displayTitle: false
     displayLogo: true
