@@ -1,5 +1,5 @@
 ---
-title: Hextra Theme
+title: OOPSpam Support Center & Knowledge base
 layout: hextra-home
 ---
 
