@@ -5,6 +5,9 @@
     <loc>//localhost:1313/wordpress/configuration/</loc>
     <lastmod>2024-10-21T11:02:05+06:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/wordpress/multisite/</loc>
+    <lastmod>2024-10-21T11:02:05+06:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/intro/</loc>
   </url><url>
     <loc>//localhost:1313/wordpress/</loc>
@@ -14,7 +17,7 @@
     <lastmod>2024-10-21T11:02:05+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/other-integrations/make/</loc>
-    <lastmod>2024-10-21T11:02:05+06:00</lastmod>
+    <lastmod>2024-10-31T11:02:05+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/other-integrations/</loc>
     <lastmod>2023-02-27T11:02:05+06:00</lastmod>
@@ -38,7 +41,7 @@
     <lastmod>2024-10-21T11:02:05+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-10-21T11:02:05+06:00</lastmod>
+    <lastmod>2024-10-31T11:02:05+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
