@@ -2,7 +2,7 @@
 title: "Multisite / Network"
 breadcrumbs: false
 date: 2025-03-27T11:02:05+06:00
-weight: 1
+weight: 4
 draft: false
 keywords: ["multisite", "network", "wordpress", "forms", "spam protection"]
 description: "Quickly configure the OOPSpam WordPress plugin for multisite environments. This guide covers API key setup, form integration, and enabling spam protection for various plugins and features."

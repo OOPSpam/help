@@ -1,7 +1,7 @@
 ---
 title: "Hooks"
 date: 2024-10-21T11:02:05+06:00
-weight: 4
+weight: 3
 draft: false
 # search related keywords
 keywords: ["hook" , "filter", "action"]
