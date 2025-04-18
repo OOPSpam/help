@@ -34,7 +34,7 @@ To get started quickly, follow these steps:
 {{< /callout >}}
 
 
-### Contact form specific settings
+### Form builder specific settings
 
 When [a supported contact form builder](../#supported-contact-form-builders) is installed, the OOPSpam WordPress plugin will automatically detect it and display relevant settings. 
 For example, if the plugin detects that you have installed the Elementor Page Builder, it will display specific settings for Elementor Forms.
@@ -69,8 +69,6 @@ The OOPSpam WordPress plugin offers two methods to prevent unwanted submissions,
 
 ![Spam filter by country and language](country-language-filter.png)
 
-![Block by country](wp-block-countries.png)
-
 **Allow messages only from these countries**: This setting allows you to specify which countries you want to allow submissions from. By adding countries here, you can quickly limit submissions to only those countries, while still keeping your website accessible worldwide.
 
 **Block messages from these countries**: This setting allows you to specify which countries you want to block submissions from.
@@ -104,6 +102,35 @@ Here we have three settings:
 2. **Do not analyze Email addresses**: When this setting is enabled, the plugin will not send the email address of a submission to our servers for spam detection.
 
 3. **Remove sensitive information from messages**: When this setting is enabled, the plugin will attempt to detect and remove any personal information such as email addresses, street addresses, phone numbers, and first and last names from the message. It is important to note, however, that there is no guarantee that all personal information will be accurately removed.
+
+### IP Filtering
+
+Control form submissions based on the origin of the IP address. These settings help prevent spam from automated systems and suspicious sources.
+
+![IP Filtering Settings](ip-filtering-settings.png)
+
+- **Block VPNs**: Enable this option to block form submissions from known VPN services. This helps prevent spam from users trying to hide their true location.
+
+- **Block Cloud Providers**: When enabled, this setting blocks submissions from over 1,500 known cloud provider IP ranges, including AWS, Google Cloud, Azure, and others. Since legitimate users rarely submit forms from cloud infrastructure, this effectively blocks automated spam from cloud-hosted bots.
+
+### Rate Limiting
+
+Configure rate limits to control submission frequency and prevent spam attacks. These settings help protect your forms from automated submissions and abuse.
+
+![Rate Limiting Settings](rate-limit-settings.png)
+
+- **Enable rate limiting**: Toggle to activate or deactivate all rate limiting features
+- **Max Submissions per IP per Hour**: Limit how many submissions are allowed from a single IP address within one hour
+- **Max Submissions per Email per Hour**: Limit how many submissions are allowed from a single email address within one hour
+- **Block Duration**: Set how long (in hours) an IP or email remains blocked after exceeding the submission limit
+- **Data Clean Up Frequency**: Set how often (in hours) the rate limiting data should be cleaned up to maintain database efficiency
+- **Restrict submissions per Google Ads lead**: Limit form submissions from Google Ads to prevent abuse of ad campaigns. This setting does not require the 'Enable Rate Limiting' option to be active.
+
+#### Submission Timing Control
+
+This setting works independently and does not require the 'Enable Rate Limiting' option to be active:
+
+- **Minimum Time Between Page Load and Submission**: Specify the minimum number of seconds that must elapse between when a page loads and when a form is submitted. Submissions made faster than this threshold will be flagged as spam. Since most human users take at least 2-3 seconds to complete a form, this setting effectively identifies automated submissions while also conserving API calls.
 
 ### Additional settings
 
