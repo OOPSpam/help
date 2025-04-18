@@ -1,7 +1,7 @@
 ---
 title: "Multisite / Network"
 breadcrumbs: false
-date: 2025-03-27T11:02:05+06:00
+date: 2025-04-18T11:02:05+06:00
 weight: 4
 draft: false
 keywords: ["multisite", "network", "wordpress", "forms", "spam protection"]
@@ -58,6 +58,15 @@ Enable spam filtering for specific form types by adding these definitions to you
 - **Piotnet Forms**: `define( 'OOPSPAM_IS_PIONET_ACTIVATED', true );`
 - **wpDiscuz Comments**: `define( 'OOPSPAM_IS_WPDIS_ACTIVATED', true );`
 - **Forminator**: `define( 'OOPSPAM_IS_FORMINATOR_ACTIVATED', true );`
+
+## Logging Configuration
+
+Control how form submissions are logged using these global settings:
+
+- **Disable Local Logging**: `define( 'OOPSPAM_DISABLE_LOCAL_LOGGING', true );`
+- **Enable Remote Logging**: `define( 'OOPSPAM_ENABLE_REMOTE_LOGGING', true );`
+  
+Set to `true` to enable or `false` to disable these features. When remote logging is enabled, you can view submission logs in the OOPSpam Dashboard under the "Logs" page. Additionally, you can mark any entry as spam or not spam directly from the dashboard for better spam detection accuracy.
 
 ## Example Configuration
 
