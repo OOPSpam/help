@@ -38,4 +38,4 @@ Entries that are reported and reviewed in the OOPSpam Dashboard will be removed 
 
 ![OOPSpam Reported entries](reported.png)
 
-
+![Logs in the dashboard](screenshot-1.png)

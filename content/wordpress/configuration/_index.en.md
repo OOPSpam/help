@@ -124,7 +124,7 @@ Configure rate limits to control submission frequency and prevent spam attacks. 
 - **Max Submissions per Email per Hour**: Limit how many submissions are allowed from a single email address within one hour
 - **Block Duration**: Set how long (in hours) an IP or email remains blocked after exceeding the submission limit
 - **Data Clean Up Frequency**: Set how often (in hours) the rate limiting data should be cleaned up to maintain database efficiency
-- **Restrict submissions per Google Ads lead**: Limit form submissions from Google Ads to prevent abuse of ad campaigns. This setting does not require the 'Enable Rate Limiting' option to be active.
+- **Restrict submissions per Google Ads lead**: Limit form submissions from Google Ads to prevent abuse of ad campaigns. _This setting does not require the 'Enable Rate Limiting' option to be active._
 
 #### Submission Timing Control
 
