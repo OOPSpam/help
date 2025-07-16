@@ -62,4 +62,15 @@ layout: hextra-home
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
     icon="microphone"
   >}}
+  {{< hextra/feature-card
+    title="Account"
+    link="/account"
+    subtitle="Manage your account, subscriptions, and billing."
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
+    image="images/user.webp"
+    imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(178, 176, 159, 0.63),hsla(0, 7%, 23%, 0.00))"
+    icon="user"
+  >}}
 {{< /hextra/feature-grid >}}
+
