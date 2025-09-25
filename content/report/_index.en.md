@@ -32,7 +32,7 @@ To report via the OOPSpam Dashboard, add the [`logIt`](https://www.oopspam.com/d
 
 ### WordPress
 
-Use [the Form Spam Entries and Form Ham Entries](/wordpress/form-entries/) tables to report false positives and false negatives.
+Use [the Form Spam Entries and Form Valid Entries](/wordpress/form-entries/) tables to report false positives and false negatives.
 
 ### Zapier, Make.com, Bubble.io
 

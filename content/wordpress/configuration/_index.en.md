@@ -139,12 +139,12 @@ There are additional settings that you may find useful:
 - **Move spam comments to**:  By default, the OOPSpam plugin will move a spam comment to the Spam folder in [Comments](https://wordpress.org/documentation/article/comments-in-wordpress/). You can change this setting to move it to the Trash folder instead.
 - **Consider short messages as spam**: Many spam messages are too short to be a meaningful sentence. This setting allows you to catch this type of spam.
 
-The OOPSpam WordPress plugin also includes two additional menus: [Form Spam Entries and Form Ham Entries](../form-entries). These menus allow you to view and manage the submissions that the plugin has identified as spam or legitimate messages (ham).
+The OOPSpam WordPress plugin also includes two additional menus: [Form Spam Entries and Form Valid Entries](../form-entries). These menus allow you to view and manage the submissions that the plugin has identified as spam or legitimate messages (ham).
 
 ![Form Spam and Ham Entries in OOPSpam WordPress plugin ](form-entries.png)
  
 - **Empty "Form Spam Entries" table every**: Allows you to set an interval for automatically removing all entries in the Form Spam Entries table. This table holds all the spam submissions to your website. The default interval is set to one month.
-- **Empty "Form Ham Entries" table every**: Allows you to set an interval for automatically removing all entries in the Form Ham Entries table. This table holds all the legitimate submissions (non-spam) to your website. The default interval is set to one month.
+- **Empty "Form Valid Entries" table every**: Allows you to set an interval for automatically removing all entries in the Form Valid Entries table. This table holds all the legitimate submissions (non-spam) to your website. The default interval is set to one month.
 
 
 {{< callout type="info" >}}

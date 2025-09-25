@@ -8,6 +8,12 @@ type : "docs"
 weight: 5
 ---
 
+## Where is my API Key?
+
+You can find your API key in the top right corner of the dashboard's main page, located under the "Your API key" section.
+
+![Your API key](your-api-key.png)
+
 ## How to upgrade or downgrade, cancel?
 
 ### Upgrading and downgrading
