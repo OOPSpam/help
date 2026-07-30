@@ -30,7 +30,12 @@ To get started quickly, follow these steps:
 {{< /callout >}}
 
 {{< callout type="info" >}}
-  **The Sensitivity Level setting** in the OOPSpam plugin controls how aggressively the plugin checks submissions for spam. The default setting is 3, which is a balance between catching spam and avoiding false positives (legitimate submissions marked as spam). **We recommend using the 'Moderation' option for the Sensitivity Level setting. This balanced option typically provides the best combination of spam detection accuracy and minimal false positives for most users.**. However, if you believe that the default setting is not a good fit for your website, please reach out to our support team for assistance.
+  **The Sensitivity Level setting** controls how aggressively the plugin checks submissions for spam. The default setting is 3 (Moderate), which balances catching spam and avoiding false positives. We recommend keeping it at Moderate for most sites. Below the sensitivity slider, two experimental options are available:
+
+  - **Smart Accuracy**: Improves detection accuracy to reduce false positives, though some spam may be missed.
+  - **Extra Screening**: Applies additional checks for stricter spam filtering.
+
+  If you believe the default setting is not a good fit for your website, please reach out to our support team for assistance.
 {{< /callout >}}
 
 
@@ -69,11 +74,41 @@ The OOPSpam WordPress plugin offers two methods to prevent unwanted submissions,
 
 ![Spam filter by country and language](country-language-filter.png)
 
-**Allow messages only from these countries**: This setting allows you to specify which countries you want to allow submissions from. By adding countries here, you can quickly limit submissions to only those countries, while still keeping your website accessible worldwide.
+**Country Allowlist**: Only accept submissions from the selected countries. All other countries will be blocked.
 
-**Block messages from these countries**: This setting allows you to specify which countries you want to block submissions from.
+**Country Blocklist**: Reject submissions from the selected countries. All other countries will be allowed.
 
-**Allow messages only in these languages**: If your contact form includes a message field, you can use this filter to only allow submissions written in specific languages. This is another way to limit the submissions you receive through your contact form.
+**Language Allowlist**: If your contact form includes a message field, you can use this filter to only allow submissions written in specific languages. This is another way to limit the submissions you receive through your contact form.
+
+### Trusted Countries
+
+The **Trusted Countries** setting allows you to designate specific countries whose submissions will always bypass all spam checks. Unlike the country allowlist which blocks non-allowed countries, this setting lets submissions from trusted countries through without any spam analysis.
+
+- Submissions from trusted countries skip the OOPSpam API call entirely
+- Useful when you want to reduce API usage for countries you know produce only legitimate traffic
+- Only available when the "Do not analyze IP addresses" privacy setting is OFF
+
+### Contextual Detection
+
+![Contextual Detection settings](contextual-detection.png)
+
+Contextual Detection uses AI to analyze form submissions based on your website's specific purpose. Instead of relying solely on generic spam patterns, it evaluates whether a submission is legitimate in the context of your business.
+
+**Enable Contextual Detection**: When enabled, standard spam detection is disabled and only contextual analysis is used.
+
+**Website Context**: Describe your business, what kind of messages you expect, and what you consider spam. This helps the AI understand what's legitimate for your specific use case.
+
+Example context description for a web agency:
+```
+LEGITIMATE: project specs, timeline questions, design feedback, content delivery,
+revision requests, hosting/domain info, meeting scheduling
+SPAM: phishing links, fake invoices, crypto offers, wire transfer requests,
+impersonation attempts
+```
+
+{{< callout type="warning" >}}
+**Use this feature ONLY if your forms include a required textarea field.** Contextual Detection relies on message content to function properly.
+{{< /callout >}}
 
 ### Manually block email, IP, keyword
 
@@ -122,15 +157,15 @@ Configure rate limits to control submission frequency and prevent spam attacks. 
 - **Enable rate limiting**: Toggle to activate or deactivate all rate limiting features
 - **Max Submissions per IP per Hour**: Limit how many submissions are allowed from a single IP address within one hour
 - **Max Submissions per Email per Hour**: Limit how many submissions are allowed from a single email address within one hour
-- **Block Duration**: Set how long (in hours) an IP or email remains blocked after exceeding the submission limit
-- **Data Clean Up Frequency**: Set how often (in hours) the rate limiting data should be cleaned up to maintain database efficiency
+- **Block Duration (in hours)**: Set how long an IP or email remains blocked after exceeding the submission limit
+- **Data Clean Up Frequency (in hours)**: Set how often the rate limiting data should be cleaned up to maintain database efficiency
 - **Restrict submissions per Google Ads lead**: Limit form submissions from Google Ads to prevent abuse of ad campaigns. _This setting does not require the 'Enable Rate Limiting' option to be active._
 
 #### Submission Timing Control
 
 This setting works independently and does not require the 'Enable Rate Limiting' option to be active:
 
-- **Minimum Time Between Page Load and Submission**: Specify the minimum number of seconds that must elapse between when a page loads and when a form is submitted. Submissions made faster than this threshold will be flagged as spam. Since most human users take at least 2-3 seconds to complete a form, this setting effectively identifies automated submissions while also conserving API calls.
+- **Minimum Time Between Page Load and Submission (in seconds)**: Specify the minimum number of seconds that must elapse between when a page loads and when a form is submitted. Submissions made faster than this threshold will be flagged as spam. Since most human users take at least 2-3 seconds to complete a form, this setting effectively identifies automated submissions while also conserving API calls.
 
 ### Additional settings
 
@@ -138,6 +173,7 @@ There are additional settings that you may find useful:
 
 - **Move spam comments to**:  By default, the OOPSpam plugin will move a spam comment to the Spam folder in [Comments](https://wordpress.org/documentation/article/comments-in-wordpress/). You can change this setting to move it to the Trash folder instead.
 - **Consider short messages as spam**: Many spam messages are too short to be a meaningful sentence. This setting allows you to catch this type of spam.
+- **Protect against internal search spam**: When enabled, the plugin filters WordPress internal search queries for spam patterns, preventing spam bots from abusing your site's search functionality.
 
 The OOPSpam WordPress plugin also includes two additional menus: [Form Spam Entries and Form Valid Entries](../form-entries). These menus allow you to view and manage the submissions that the plugin has identified as spam or legitimate messages (ham).
 
@@ -150,3 +186,63 @@ The OOPSpam WordPress plugin also includes two additional menus: [Form Spam Entr
 {{< callout type="info" >}}
   Check [Logs](../form-entries) to learn more about these tables.
 {{< /callout >}}
+
+### Miscellaneous Settings
+
+The Miscellaneous Settings section contains advanced configuration options:
+
+**Trust proxy headers**: Enable this if your site is behind a CDN or proxy service (Cloudflare, Sucuri, etc.). This ensures the plugin detects the real visitor IP address rather than the proxy's IP. Only enable if you trust your proxy service.
+
+![Misc settings - Trust proxy headers](misc-proxy.png)
+
+**Email admin when marked as not spam**: When enabled, the plugin sends an email notification to the admin each time a spam entry is manually marked as "not spam" (false positive). This helps you stay aware of detection accuracy.
+
+**Entries table timezone**: Choose the timezone used to display dates in the Form Spam Entries and Form Valid Entries tables. Defaults to your WordPress site timezone, but you can select any timezone for display purposes.
+
+### Spam Summary Report
+
+![Spam Summary Report settings](spam-report.png)
+
+The Spam Summary Report automatically sends you email summaries of recent spam activity. This helps you stay informed about spam patterns without constantly checking the WordPress dashboard.
+
+**Report Frequency:**
+- **Disabled** - No reports are sent
+- **Threshold-Based** - A report is sent once the spam entry count reaches a specified number
+- **Twice Daily** - Reports sent twice per day
+- **Daily** - One report per day
+- **Weekly** - One report per week
+- **Monthly** - One report per month
+
+**Additional Settings:**
+- **Threshold count** (Threshold-Based mode): Number of spam entries that triggers a report
+- **Recipient emails**: Comma-separated list of email addresses to receive reports (defaults to admin email)
+- **Custom subject line**: Customize the email subject using `{% raw %}{{site_name}}{% endraw %}` as a placeholder for your site name
+
+{{< callout type="info" >}}
+If no spam entries have been recorded since the last report, no report will be sent.
+{{< /callout >}}
+
+### Manual Moderation Details
+
+![Block by email, IP, keyword](manual-moderation.png)
+
+The Manual Moderation tab supports advanced matching patterns:
+
+**Email Blocking:** Supports exact match and wildcard patterns.
+- `spammer@example.com` - blocks a specific email
+- `*@example.com` - blocks all emails from a domain
+- `*@*.ru` - blocks all emails from a TLD
+
+**IP Blocking:** Supports individual IPs, CIDR notation, and IP ranges.
+- `192.168.1.1` - blocks a specific IP
+- `192.168.1.0/24` - blocks an entire subnet (CIDR)
+- `192.168.1.1-192.168.1.10` - blocks an IP range
+
+**Keyword Blocking:** Blocks submissions containing specific words or phrases regardless of capitalization.
+
+**Priority Order:** Checks are performed in this order before the API call:
+1. Blocked emails → block immediately
+2. Blocked IPs → block immediately
+3. Allowed emails → allow immediately (bypass API)
+4. Allowed IPs → allow immediately (bypass API)
+5. Blocked keywords → block immediately

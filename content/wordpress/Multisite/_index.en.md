@@ -32,30 +32,41 @@ Enable spam filtering for specific form types by adding these definitions to you
 
 ### Page Builder Forms
 - **Elementor Pro**: `define( 'OOPSPAM_IS_EL_ACTIVATED', true );`
+- **Elementor Atomic**: `define( 'OOPSPAM_IS_EL_ATOMIC_ACTIVATED', true );`
 - **Beaver Builder**: `define( 'OOPSPAM_IS_BB_ACTIVATED', true );`
 - **Bricks Builder**: `define( 'OOPSPAM_IS_BR_ACTIVATED', true );`
+- **Breakdance**: `define( 'OOPSPAM_IS_BD_ACTIVATED', true );`
+- **Avada Forms**: `define( 'OOPSPAM_IS_AVADA_ACTIVATED', true );`
 - **Kadence Blocks**: `define( 'OOPSPAM_IS_KB_ACTIVATED', true );`
 
 ### Membership & eCommerce
 - **WooCommerce**: `define( 'OOPSPAM_IS_WOO_ACTIVATED', true );`
+- **SureCart**: `define( 'OOPSPAM_IS_SURECART_ACTIVATED', true );`
 - **MemberPress**: `define( 'OOPSPAM_IS_MPRESS_ACTIVATED', true );`
 - **Paid Memberships Pro**: `define( 'OOPSPAM_IS_PMP_ACTIVATED', true );`
 - **Ultimate Member**: `define( 'OOPSPAM_IS_UMEMBER_ACTIVATED', true );`
+- **BuddyPress**: `define( 'OOPSPAM_IS_BUDDYPRESS_ACTIVATED', true );`
+- **WordPress Registration**: `define( 'OOPSPAM_IS_WPREGISTER_ACTIVATED', true );`
+- **WordPress Login**: `define( 'OOPSPAM_IS_WPLOGIN_ACTIVATED', true );`
 
 ### Newsletter & Marketing
 - **MailChimp for WP**: `define( 'OOPSPAM_IS_MC4WP_ACTIVATED', true );`
 - **MailPoet**: `define( 'OOPSPAM_IS_MPOET_ACTIVATED', true );`
+- **Tribulant Newsletters**: `define( 'OOPSPAM_IS_TNL_ACTIVATED', true );`
 
 ### Other Supported Forms
 - **Jetpack Forms**: `define( 'OOPSPAM_IS_JFORM_ACTIVATED', true );`
 - **SureForms**: `define( 'OOPSPAM_IS_SURE_ACTIVATED', true );`
-- **WordPress Registration**: `define( 'OOPSPAM_IS_WPREGISTER_ACTIVATED', true );`
 - **GiveWP Donation**: `define( 'OOPSPAM_IS_GIVE_ACTIVATED', true );`
 - **Fluent Forms**: `define( 'OOPSPAM_IS_FF_ACTIVATED', true );`
 - **WS Form**: `define( 'OOPSPAM_IS_WS_ACTIVATED', true );`
 - **Formidable**: `define( 'OOPSPAM_IS_FABLE_ACTIVATED', true );`
 - **Toolset Forms**: `define( 'OOPSPAM_IS_TS_ACTIVATED', true );`
 - **Piotnet Forms**: `define( 'OOPSPAM_IS_PIONET_ACTIVATED', true );`
+- **HappyForms**: `define( 'OOPSPAM_IS_HAPPYFORMS_ACTIVATED', true );`
+- **Quform**: `define( 'OOPSPAM_IS_QUFORM_ACTIVATED', true );`
+- **Metform**: `define( 'OOPSPAM_IS_METFORM_ACTIVATED', true );`
+- **ACF Frontend Forms**: `define( 'OOPSPAM_IS_ACF_ACTIVATED', true );`
 - **wpDiscuz Comments**: `define( 'OOPSPAM_IS_WPDIS_ACTIVATED', true );`
 - **Forminator**: `define( 'OOPSPAM_IS_FORMINATOR_ACTIVATED', true );`
 
@@ -67,6 +78,12 @@ Control how form submissions are logged using these global settings:
 - **Enable Remote Logging**: `define( 'OOPSPAM_ENABLE_REMOTE_LOGGING', true );`
   
 Set to `true` to enable or `false` to disable these features. When remote logging is enabled, you can view submission logs in the OOPSpam Dashboard under the "Logs" page. Additionally, you can mark any entry as spam or not spam directly from the dashboard for better spam detection accuracy.
+
+## Network & Proxy Configuration
+
+- **Trust Proxy Headers**: `define( 'OOPSPAM_TRUST_PROXY_HEADERS', true );`
+  
+Enable this if your site is behind a CDN or proxy service (Cloudflare, Sucuri, etc.) to ensure the plugin detects real visitor IP addresses.
 
 ## Example Configuration
 

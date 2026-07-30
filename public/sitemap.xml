@@ -37,6 +37,9 @@
     <loc>//localhost:1313/account/</loc>
     <lastmod>2025-07-16T11:02:05+06:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/wordpress/woocommerce/</loc>
+    <lastmod>2024-10-21T11:02:05+06:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/wordpress/testing/</loc>
     <lastmod>2024-10-21T11:02:05+06:00</lastmod>
   </url><url>
@@ -45,6 +48,9 @@
   </url><url>
     <loc>//localhost:1313/</loc>
     <lastmod>2025-07-16T11:02:05+06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/wordpress/setup-wizard/</loc>
+    <lastmod>2024-10-21T11:02:05+06:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>

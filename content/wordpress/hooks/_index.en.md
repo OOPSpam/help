@@ -8,12 +8,13 @@ keywords: ["hook" , "filter", "action"]
 description: "Learn about available hooks in the OOPSpam WordPress plugin and how to use them."
 ---
 
-The plugins comes with two hooks:
+The plugins comes with the following hooks:
 
-| Hook      | Purpose      |
-| ------------- | ------------- |
-| `oopspam_check_for_spam` | Overwrite spam filtering. Add your custom logic. |
-| `oopspam_woo_disable_honeypot` | Disable honeypot for WooCommerce integration |
+| Hook      | Type | Purpose      |
+| ------------- | ------------- | ------------- |
+| `oopspam_check_for_spam` | Filter | Overwrite spam filtering. Add your custom logic. |
+| `oopspam_woo_disable_honeypot` | Filter | Disable honeypot for WooCommerce integration |
+| `oopspam_set_default_settings` | Action | Fires when default plugin settings are initialized |
 
 
 ## Adding custom spam rule
@@ -50,4 +51,23 @@ To disable the honeypot, add the following code to the `functions.php` file or e
 
 ```php
 add_filter('oopspam_woo_disable_honeypot', '__return_true');
+```
+
+## Modify default settings on plugin activation
+
+The `oopspam_set_default_settings` action fires when the plugin initializes its default settings. You can use this to customize defaults before the settings page is used:
+
+```php
+add_action('oopspam_set_default_settings', 'my_custom_defaults');
+function my_custom_defaults() {
+    // Update default sensitivity level to be stricter
+    $settings = get_option('oopspamantispam_settings');
+    if (empty($settings['oopspam_api_key'])) {
+        // Plugin hasn't been configured yet - set your defaults
+        update_option('oopspamantispam_settings', array_merge(
+            (array) $settings,
+            ['oopspam_spam_score_threshold' => 4]
+        ));
+    }
+}
 ```

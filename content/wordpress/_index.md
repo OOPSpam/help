@@ -36,24 +36,52 @@ By automating spam detection, OOPSpam allows you to focus on genuine messages an
 
 The following contact form solutions are supported by the OOPSpam plugin:
 
-- WooCommerce Order & Registration
-- Elementor Forms
-- Ninja Forms
-- Gravity Forms
-- Kadence Form Block
-- Fluent Forms
-- Breakdance Forms
-- WS Form
-- WPDiscuz
-- Forminator
-- WPForms
-- Formidable Forms
+**Form Builders:**
 - Contact Form 7
+- Gravity Forms
+- Ninja Forms
+- WPForms (Lite & Pro)
+- Fluent Forms (Free & Pro)
+- Elementor Forms (Pro)
+- Formidable Forms (Free & Pro)
+- WS Form (Free & Pro)
+- Forminator
+- Beaver Builder
+- HappyForms
+- Piotnet Forms (Free & Pro)
+- Jetpack Forms
+- Kadence Form Block (Free & Pro)
 - Bricks Forms
+- Breakdance Forms
 - Toolset Forms
-- Piotnet Forms 
-- GiveWP Donation Forms
+- Quform
+- Avada Forms
+- Metform
+- SureForms
+
+**Page Builders:**
+- Elementor Forms
+- Elementor Atomic Forms
+- ACF Frontend Forms
+
+**Registration & Membership:**
+- WordPress Default Forms (Registration & Login)
+- WooCommerce (Registration & Login)
+- BuddyPress
+- Ultimate Member
+- MemberPress
+- Paid Memberships Pro (PMPro)
+
+**Comments & Newsletter:**
+- WPDiscuz (Comments)
 - MailPoet
+- Mailchimp for WordPress (MC4WP)
+- Newsletters by Tribulant
+
+**E-commerce & Donations:**
+- WooCommerce (Checkout & Orders)
+- SureCart
+- GiveWP Donation Forms
 
 See [the plugin description](https://wordpress.org/plugins/oopspam-anti-spam/) on the WordPress plugin directory for more.
 
