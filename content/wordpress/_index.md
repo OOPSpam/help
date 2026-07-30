@@ -1,7 +1,7 @@
 ---
 title: "WordPress integration"
 linkTitle: "WordPress"
-date: 2024-10-21T11:02:05+06:00
+date: 2026-07-30T11:02:05+06:00
 description: "Learn how to set up OOPSpam WordPress Plugin and protect your forms and comments from spam"
 type : "docs"
 weight: 2
