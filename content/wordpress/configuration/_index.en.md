@@ -32,7 +32,7 @@ To get started quickly, follow these steps:
 {{< callout type="info" >}}
   **The Sensitivity Level setting** controls how aggressively the plugin checks submissions for spam. The default setting is 3 (Moderate), which balances catching spam and avoiding false positives. We recommend keeping it at Moderate for most sites. Below the sensitivity slider, two experimental options are available:
 
-  - **Smart Accuracy**: Improves detection accuracy to reduce false positives, though some spam may be missed.
+  - **Reduce False Positives**: Improves detection accuracy to reduce false positives, though some spam may be missed.
   - **Extra Screening**: Applies additional checks for stricter spam filtering.
 
   If you believe the default setting is not a good fit for your website, please reach out to our support team for assistance.
