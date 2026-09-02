@@ -14,6 +14,22 @@ You can find your API key in the top right corner of the dashboard's main page, 
 
 ![Your API key](your-api-key.png)
 
+## How do I rotate my API key?
+
+You can now rotate your OOPSpam API key yourself — no need to contact support.
+
+**Where to find it:** Account Settings → API Key (or go directly to [https://app.oopspam.com/Identity/Account/Manage/ApiKey](https://app.oopspam.com/Identity/Account/Manage/ApiKey)).
+
+**What it does:** Generates a new API key and immediately invalidates the old one. Use this if your key has been accidentally exposed or you're rotating credentials as a security practice.
+
+![Rotate your API key](rotate-api-key.png)
+
+A few things to know:
+
+- Available on all paid plans.
+- Limited to **3 rotations per calendar year** (the counter resets on January 1st).
+- The old key stops working instantly — make sure to update it everywhere you use it.
+
 ## How to upgrade or downgrade, cancel?
 
 ### Upgrading and downgrading
@@ -36,8 +52,10 @@ To cancel your subscription, navigate to the "Manage your subscription" page and
 
 ![Cancel](cancel.png)
 
+When canceling, you'll have the option to **pause the cancellation**. Pausing keeps your current plan active and lets you continue using it until your next billing period, instead of canceling right away.
+
 {{< callout type="alert" >}}
-🚨 **IMPORTANT** Upon cancellation, your account immediately reverts to the Free plan.
+🚨 **IMPORTANT** If you proceed with the cancellation, your account immediately reverts to the Free plan.
 {{< /callout >}}
 
 ## How to update my billing information?
