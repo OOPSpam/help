@@ -199,6 +199,8 @@ The Miscellaneous Settings section contains advanced configuration options:
 
 **Entries table timezone**: Choose the timezone used to display dates in the Form Spam Entries and Form Valid Entries tables. Defaults to your WordPress site timezone, but you can select any timezone for display purposes.
 
+**Enable Abilities API (AI & automation)**: Lets AI assistants and automation tools check submissions for spam, review and report what was blocked, and manage the blocked and allowed lists. Requires WordPress 6.9 or newer. See [Abilities API](../abilities-api/) to learn how to use it.
+
 ### Spam Summary Report
 
 ![Spam Summary Report settings](spam-report.png)
