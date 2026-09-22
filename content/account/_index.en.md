@@ -1,7 +1,7 @@
 ---
 title: "Account"
 breadcrumbs: false
-date: 2025-07-16T11:02:05+06:00
+date: 2026-09-22T11:02:05+06:00
 icon: "ti-user"
 description: "Learn how to manage your account."
 type : "docs"
