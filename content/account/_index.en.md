@@ -74,6 +74,16 @@ Access your receipts through the Account page. From the dashboard, navigate to A
 
 ![Invoices](invoices.png)
 
+## How do I add a VAT number?
+
+Payments and taxes are handled by Paddle, our payment provider. We have no control over entering or refunding VAT. To apply your VAT number, enter it during the checkout. The "Add VAT number" option appears on the second step of the checkout process.
+
+![Add VAT number during checkout](adding_VAT_number.png)
+
+A few things to keep in mind:
+
+- Paddle only lets you enter a VAT number once during the checkout. You cannot update it later. To use a different VAT number, you have to cancel your current subscription and subscribe again with the new number. We don't like this process either, but this is what Paddle told us.
+- Once you add your VAT number and you are eligible, your taxes are refunded automatically.
 
 ## Next
 
