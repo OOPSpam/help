@@ -5,7 +5,7 @@ weight: 3
 draft: false
 # search related keywords
 keywords: ["hook" , "filter", "action"]
-description: "Learn about available hooks in the OOPSpam WordPress plugin and how to use them."
+description: "Learn about available hooks in the oopspam WordPress plugin and how to use them."
 ---
 
 The plugins comes with the following hooks:
@@ -19,7 +19,7 @@ The plugins comes with the following hooks:
 
 ## Adding custom spam rule
 
-You can overwrite spam filtering in the OOPSpam WordPress plugin using the `oopspam_check_for_spam` filter and return a score based on your own logic.
+You can overwrite spam filtering in the oopspam WordPress plugin using the `oopspam_check_for_spam` filter and return a score based on your own logic.
 
 In some cases where you can use it:
 

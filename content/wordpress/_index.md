@@ -2,25 +2,25 @@
 title: "WordPress integration"
 linkTitle: "WordPress"
 date: 2026-07-30T11:02:05+06:00
-description: "Learn how to set up OOPSpam WordPress Plugin and protect your forms and comments from spam"
+description: "Learn how to set up oopspam WordPress Plugin and protect your forms and comments from spam"
 type : "docs"
 weight: 2
 ---
 
 ## Introduction
 
-[The OOPSpam plugin for WordPress](https://wordpress.org/plugins/oopspam-anti-spam/) integrates with the [the OOPSpam API](https://www.oopspam.com) to protect your website's comment system, registration, and major contact form builders from spam.
+[The oopspam plugin for WordPress](https://wordpress.org/plugins/oopspam-anti-spam/) integrates with the [the oopspam API](https://www.oopspam.com) to protect your website's comment system, registration, and major contact form builders from spam.
 
-## How OOPSpam Protects Your Website
+## How oopspam Protects Your Website
 
-When a visitor submits your contact or comment form, the OOPSpam plugin instantly springs into action:
+When a visitor submits your contact or comment form, the oopspam plugin instantly springs into action:
 
 1. **Submission Analysis**: The plugin uses three key elements:
    - IP address
    - Email address
    - Message content
 
-2. **Spam Detection**: Using advanced algorithms, OOPSpam checks for patterns and characteristics typically associated with spam.
+2. **Spam Detection**: Using advanced algorithms, oopspam checks for patterns and characteristics typically associated with spam.
 
 3. **Instant Decision**: If spam is detected, the plugin immediately:
    - Marks the submission as spam
@@ -30,11 +30,11 @@ When a visitor submits your contact or comment form, the OOPSpam plugin instantl
    - Shields your website from potential threats
    - Keeps your inbox clean and manageable
 
-By automating spam detection, OOPSpam allows you to focus on genuine messages and maintain a secure online presence.
+By automating spam detection, oopspam allows you to focus on genuine messages and maintain a secure online presence.
 
 ### Supported Contact Form Builders
 
-The following contact form solutions are supported by the OOPSpam plugin:
+The following contact form solutions are supported by the oopspam plugin:
 
 **Form Builders:**
 - Contact Form 7
@@ -87,7 +87,7 @@ See [the plugin description](https://wordpress.org/plugins/oopspam-anti-spam/) o
 
 ## Installation
 
-Installing the OOPSpam WordPress plugin is easy and can be done through your website's WordPress dashboard. Follow these steps to install the plugin on your website:
+Installing the oopspam WordPress plugin is easy and can be done through your website's WordPress dashboard. Follow these steps to install the plugin on your website:
 
 {{% steps %}}
 
@@ -121,8 +121,8 @@ Be sure to check out the [Configuration](./configuration/) page for more informa
 Dive right into the following section to get started:
 
 {{< cards cols="4">}}
-{{< card link="https://www.oopspam.com/docs/" title="OOPSpam API ↗" icon="code" subtitle="Integrate custom solutions with the OOPSpam API." >}}
-{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the OOPSpam WordPress plugin." >}}
-{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate OOPSpam into Zapier, Make, or Bubble.io workflows." >}}
-{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train OOPSpam to adapt to your specific use case." >}}
+{{< card link="https://www.oopspam.com/docs/" title="oopspam API ↗" icon="code" subtitle="Integrate custom solutions with the oopspam API." >}}
+{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
+{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
+{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
 {{< /cards >}}

@@ -6,23 +6,23 @@ weight: 1
 draft: false
 # search related keywords
 keywords: [""]
-description: "Set up OOPSpam WordPress plugin in minutes. Learn how to configure your API key, adjust sensitivity settings, and enable protection for contact forms and comments."
+description: "Set up oopspam WordPress plugin in minutes. Learn how to configure your API key, adjust sensitivity settings, and enable protection for contact forms and comments."
 ---
 
 ### Quick set up
 
-The OOPSpam WordPress plugin requires minimal configuration to function properly. Once the initial setup is complete, all management can be handled through the WordPress dashboard.
+The oopspam WordPress plugin requires minimal configuration to function properly. Once the initial setup is complete, all management can be handled through the WordPress dashboard.
 
-![OOPSpam WordPress Settings](screenshot-1.png)
+![oopspam WordPress Settings](screenshot-1.png)
 
 To get started quickly, follow these steps:
 
-1. Register on the [OOPSpam Dashboard](https://app.oopspam.com/) and copy the API key.
-2. Paste the key into the **"My API Key"** field in the OOPSpam WordPress Settings.
-3. Select **"OOPSpam Dashboard"** from the **"I got my API Key from"** setting.
+1. Register on the [oopspam Dashboard](https://app.oopspam.com/) and copy the API key.
+2. Paste the key into the **"My API Key"** field in the oopspam WordPress Settings.
+3. Select **"oopspam Dashboard"** from the **"I got my API Key from"** setting.
 4. Ensure that the **"Activate Spam Protection"** option is checked for the contact form plugin you are using.
 
-![Activate Spam Protection setting in OOPSpam WordPress plugin](OOPSpam-WooCommerce-Settings.png)
+![Activate Spam Protection setting in oopspam WordPress plugin](oopspam-WooCommerce-Settings.png)
 
 
 {{< callout >}}
@@ -41,10 +41,10 @@ To get started quickly, follow these steps:
 
 ### Form builder specific settings
 
-When [a supported contact form builder](../#supported-contact-form-builders) is installed, the OOPSpam WordPress plugin will automatically detect it and display relevant settings. 
+When [a supported contact form builder](../#supported-contact-form-builders) is installed, the oopspam WordPress plugin will automatically detect it and display relevant settings. 
 For example, if the plugin detects that you have installed the Elementor Page Builder, it will display specific settings for Elementor Forms.
 
-![Elementor Forms in OOPSpam WordPress plugin](oopspam-ef-settings.png)
+![Elementor Forms in oopspam WordPress plugin](oopspam-ef-settings.png)
 
 We see three settings here:
 
@@ -58,19 +58,19 @@ Let's look at each setting in details.
 
 **Elementor Form Spam Message**: Displays an error message when spam is detected. This can happen when legitimate users are unable to submit the form. You can use this setting to provide a custom message to guide them to an alternative way to contact you, such as through email. It also allows you to hide your actual email address and only display it to legitimate visitors.
 
-![Elementor Forms Spam Detected by OOPSpam](ef-spam-detected.png)
+![Elementor Forms Spam Detected by oopspam](ef-spam-detected.png)
 
-**The main content field ID (optional)**: The OOPSpam plugin detects spam not only based on IP and email, but also by analyzing the message content submitted through forms. By default, the plugin only captures the content of the first message field. If your form includes multiple message fields (textarea fields), the plugin will only analyze the first one. However, using this setting, you can specify which textarea field the OOPSpam plugin should analyze for spam.
+**The main content field ID (optional)**: The oopspam plugin detects spam not only based on IP and email, but also by analyzing the message content submitted through forms. By default, the plugin only captures the content of the first message field. If your form includes multiple message fields (textarea fields), the plugin will only analyze the first one. However, using this setting, you can specify which textarea field the oopspam plugin should analyze for spam.
 
 To do so, you need to enter Field ID. It's under Advanced tab of a textarea field in your Elementor Forms.
 
-![Elementor Forms Spam Detected by OOPSpam](elementor-forms-field-id.png)
+![Elementor Forms Spam Detected by oopspam](elementor-forms-field-id.png)
 
-Similar to Elementor Forms, all contact form plugins have a Field ID that can be copied and pasted into this setting field, allowing the OOPSpam plugin to identify which field's content should be analyzed for spam.
+Similar to Elementor Forms, all contact form plugins have a Field ID that can be copied and pasted into this setting field, allowing the oopspam plugin to identify which field's content should be analyzed for spam.
 
 ### Prevent form submissions by country and language
 
-The OOPSpam WordPress plugin offers two methods to prevent unwanted submissions, by filtering based on the country of origin and the language of the message.
+The oopspam WordPress plugin offers two methods to prevent unwanted submissions, by filtering based on the country of origin and the language of the message.
 
 ![Spam filter by country and language](country-language-filter.png)
 
@@ -84,7 +84,7 @@ The OOPSpam WordPress plugin offers two methods to prevent unwanted submissions,
 
 The **Trusted Countries** setting allows you to designate specific countries whose submissions will always bypass all spam checks. Unlike the country allowlist which blocks non-allowed countries, this setting lets submissions from trusted countries through without any spam analysis.
 
-- Submissions from trusted countries skip the OOPSpam API call entirely
+- Submissions from trusted countries skip the oopspam API call entirely
 - Useful when you want to reduce API usage for countries you know produce only legitimate traffic
 - Only available when the "Do not analyze IP addresses" privacy setting is OFF
 
@@ -112,7 +112,7 @@ impersonation attempts
 
 ### Manually block email, IP, keyword
 
-The plugin automatically spam checks every form submission, registration, comment with the OOPSpam API. But sometimes you may want to quickly block email, IP address or a keyword in the message. To block manually you can use the `Manual Moderation` tab in the plugin settings.
+The plugin automatically spam checks every form submission, registration, comment with the oopspam API. But sometimes you may want to quickly block email, IP address or a keyword in the message. To block manually you can use the `Manual Moderation` tab in the plugin settings.
 
 Add the email, IP address or keyword to the appropriate field in the `Manual Moderation' tab. Add one item per line.
 
@@ -120,15 +120,15 @@ Add the email, IP address or keyword to the appropriate field in the `Manual Mod
 
 ### Privacy settings
 
-We are committed to providing our customers with the best possible privacy options. To effectively detect spam, OOPSpam only needs a minimal amount of data. When a user submits a comment or contact form, the plugin collects the user's IP address, email, and message content. It then sends this information to the OOPSpam API for spam detection.
+We are committed to providing our customers with the best possible privacy options. To effectively detect spam, oopspam only needs a minimal amount of data. When a user submits a comment or contact form, the plugin collects the user's IP address, email, and message content. It then sends this information to the oopspam API for spam detection.
 
 {{< callout type="warning" >}}
-The OOPSpam plugin does not store any personal data that is submitted through the APIs. All data is stored in your local WordPress database. 
+The oopspam plugin does not store any personal data that is submitted through the APIs. All data is stored in your local WordPress database. 
 
 If you encounter any false positive or false negatives, you have the option to submit them to us for review. This allows the system to improve itself based on your report and the data will be deleted within a week.
 {{< /callout >}}
 
-![ Spam Privacy setting in OOPSpam WordPress plugin ](oopspam-privacy-settings.png)
+![ Spam Privacy setting in oopspam WordPress plugin ](oopspam-privacy-settings.png)
 
 Here we have three settings:
 
@@ -171,13 +171,13 @@ This setting works independently and does not require the 'Enable Rate Limiting'
 
 There are additional settings that you may find useful:
 
-- **Move spam comments to**:  By default, the OOPSpam plugin will move a spam comment to the Spam folder in [Comments](https://wordpress.org/documentation/article/comments-in-wordpress/). You can change this setting to move it to the Trash folder instead.
+- **Move spam comments to**:  By default, the oopspam plugin will move a spam comment to the Spam folder in [Comments](https://wordpress.org/documentation/article/comments-in-wordpress/). You can change this setting to move it to the Trash folder instead.
 - **Consider short messages as spam**: Many spam messages are too short to be a meaningful sentence. This setting allows you to catch this type of spam.
 - **Protect against internal search spam**: When enabled, the plugin filters WordPress internal search queries for spam patterns, preventing spam bots from abusing your site's search functionality.
 
-The OOPSpam WordPress plugin also includes two additional menus: [Form Spam Entries and Form Valid Entries](../form-entries). These menus allow you to view and manage the submissions that the plugin has identified as spam or legitimate messages (ham).
+The oopspam WordPress plugin also includes two additional menus: [Form Spam Entries and Form Valid Entries](../form-entries). These menus allow you to view and manage the submissions that the plugin has identified as spam or legitimate messages (ham).
 
-![Form Spam and Ham Entries in OOPSpam WordPress plugin ](form-entries.png)
+![Form Spam and Ham Entries in oopspam WordPress plugin ](form-entries.png)
  
 - **Empty "Form Spam Entries" table every**: Allows you to set an interval for automatically removing all entries in the Form Spam Entries table. This table holds all the spam submissions to your website. The default interval is set to one month.
 - **Empty "Form Valid Entries" table every**: Allows you to set an interval for automatically removing all entries in the Form Valid Entries table. This table holds all the legitimate submissions (non-spam) to your website. The default interval is set to one month.

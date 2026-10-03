@@ -4,15 +4,15 @@ date: 2026-07-30T11:02:05+06:00
 weight: 5
 draft: false
 type: "docs"
-description: "Advanced WooCommerce spam and fraud protection with OOPSpam. Learn about checkout protection, card testing prevention, honeypot, and order-level blocking features."
+description: "Advanced WooCommerce spam and fraud protection with oopspam. Learn about checkout protection, card testing prevention, honeypot, and order-level blocking features."
 keywords: ["woocommerce", "spam", "fraud", "card testing", "honeypot", "order blocking", "checkout"]
 ---
 
-The OOPSpam plugin provides deep WooCommerce integration that goes beyond basic spam detection. In addition to protecting registration, login, and checkout forms with the OOPSpam API, it includes a comprehensive set of anti-fraud features to protect your store from automated attacks, card testing, and fraudulent orders.
+The oopspam plugin provides deep WooCommerce integration that goes beyond basic spam detection. In addition to protecting registration, login, and checkout forms with the oopspam API, it includes a comprehensive set of anti-fraud features to protect your store from automated attacks, card testing, and fraudulent orders.
 
 ## Supported Forms
 
-OOPSpam protects the following WooCommerce entry points:
+oopspam protects the following WooCommerce entry points:
 
 - **Registration form** — Both standard and checkout registration
 - **Login form** — Prevents automated login attempts
@@ -24,7 +24,7 @@ OOPSpam protects the following WooCommerce entry points:
 
 ## Spam & Fraud Protection Features
 
-![OOPSpam WooCommerce settings](woo-setings.png)
+![oopspam WooCommerce settings](woo-setings.png)
 
 
 ### Honeypot Protection
@@ -112,8 +112,8 @@ Two complementary features help prevent card testing attacks on your store:
 
 From the WooCommerce Edit Order screen, you can manually block or unblock orders:
 
-- **Block as Spam (OOPSpam)**: Reports the order to OOPSpam, adds the customer's email and IP to your manual moderation block lists, and marks the order as blocked
-- **Undo Block (OOPSpam)**: Reverses the block — removes from block lists and adds to allow lists
+- **Block as Spam (oopspam)**: Reports the order to oopspam, adds the customer's email and IP to your manual moderation block lists, and marks the order as blocked
+- **Undo Block (oopspam)**: Reverses the block — removes from block lists and adds to allow lists
 
 ### Bulk Actions
 
@@ -121,8 +121,8 @@ From the WooCommerce Edit Order screen, you can manually block or unblock orders
 
 On the Orders list screen, you can apply these actions to multiple orders at once:
 
-- **Block as Spam (OOPSpam)** — Bulk block selected orders
-- **Undo Block (OOPSpam)** — Bulk undo block selected orders
+- **Block as Spam (oopspam)** — Bulk block selected orders
+- **Undo Block (oopspam)** — Bulk undo block selected orders
 
 ---
 

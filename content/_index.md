@@ -1,5 +1,5 @@
 ---
-title: OOPSpam Support Center & Knowledge base
+title: oopspam Support Center & Knowledge base
 layout: hextra-home
 ---
 
@@ -25,7 +25,7 @@ layout: hextra-home
   {{< hextra/feature-card
     title="API Documentation"
     link= "https://www.oopspam.com/docs"
-    subtitle="Discover everything about the OOPSpam API, including its various endpoints, parameters, and tips for maximizing its use in your custom integrations."
+    subtitle="Discover everything about the oopspam API, including its various endpoints, parameters, and tips for maximizing its use in your custom integrations."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="images/TestGraphic.png"
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
@@ -35,7 +35,7 @@ layout: hextra-home
   {{< hextra/feature-card
     title="WordPress"
     link= "/wordpress"
-    subtitle="Learn how to set up, configure, and customize the OOPSpam WordPress plugin for optimal performance."
+    subtitle="Learn how to set up, configure, and customize the oopspam WordPress plugin for optimal performance."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
     image="images/wp.webp"
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"

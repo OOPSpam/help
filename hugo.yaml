@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: OOPSpam Support Center & Knowledge base
+title: oopspam Support Center & Knowledge base
 
 
 # import hextra as module
@@ -36,7 +36,7 @@ menu:
     - name: Documentation
       pageRef: /
       weight: 1
-    - name: OOPSpam ↗
+    - name: oopspam ↗
       url: "https://www.oopspam.com"
       weight: 2
     - name: Search
@@ -57,7 +57,7 @@ menu:
 params:
   images:
     - "/oopspam-knowledgebase-meta.png"
-  description: "Protect your website from spam with OOPSpam's API & WordPress plugin. Includes integrations with Make, Zapier, Bubble.io, plus setup guides & privacy settings."
+  description: "Protect your website from spam with oopspam's API & WordPress plugin. Includes integrations with Make, Zapier, Bubble.io, plus setup guides & privacy settings."
 
   navbar:
     displayTitle: false

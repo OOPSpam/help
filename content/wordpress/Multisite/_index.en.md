@@ -5,12 +5,12 @@ date: 2026-04-18T11:02:05+06:00
 weight: 4
 draft: false
 keywords: ["multisite", "network", "wordpress", "forms", "spam protection"]
-description: "Quickly configure the OOPSpam WordPress plugin for multisite environments. This guide covers API key setup, form integration, and enabling spam protection for various plugins and features."
+description: "Quickly configure the oopspam WordPress plugin for multisite environments. This guide covers API key setup, form integration, and enabling spam protection for various plugins and features."
 ---
 
-# OOPSpam WordPress Multisite Configuration
+# oopspam WordPress Multisite Configuration
 
-The OOPSpam WordPress plugin fully supports multisite environments. This guide explains how to configure the plugin globally using your `wp-config.php` file.
+The oopspam WordPress plugin fully supports multisite environments. This guide explains how to configure the plugin globally using your `wp-config.php` file.
 
 ## Basic Configuration
 
@@ -77,7 +77,7 @@ Control how form submissions are logged using these global settings:
 - **Disable Local Logging**: `define( 'OOPSPAM_DISABLE_LOCAL_LOGGING', true );`
 - **Enable Remote Logging**: `define( 'OOPSPAM_ENABLE_REMOTE_LOGGING', true );`
   
-Set to `true` to enable or `false` to disable these features. When remote logging is enabled, you can view submission logs in the OOPSpam Dashboard under the "Logs" page. Additionally, you can mark any entry as spam or not spam directly from the dashboard for better spam detection accuracy.
+Set to `true` to enable or `false` to disable these features. When remote logging is enabled, you can view submission logs in the oopspam Dashboard under the "Logs" page. Additionally, you can mark any entry as spam or not spam directly from the dashboard for better spam detection accuracy.
 
 ## Network & Proxy Configuration
 
@@ -90,7 +90,7 @@ Enable this if your site is behind a CDN or proxy service (Cloudflare, Sucuri, e
 Here's a complete example of how to configure multiple forms in your `wp-config.php`:
 
 ```php
-// OOPSpam Configuration
+// oopspam Configuration
 define( 'OOPSPAM_API_KEY', 'your-api-key-here' );
 define( 'OOPSPAM_IS_CF7_ACTIVATED', true );
 define( 'OOPSPAM_IS_WOO_ACTIVATED', true );

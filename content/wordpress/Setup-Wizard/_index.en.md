@@ -4,11 +4,11 @@ date: 2026-07-30T11:02:05+06:00
 weight: 0
 draft: false
 type: "docs"
-description: "Use the OOPSpam Setup Wizard to quickly configure your API key, enable form protection, and set up country filtering in minutes."
+description: "Use the oopspam Setup Wizard to quickly configure your API key, enable form protection, and set up country filtering in minutes."
 keywords: ["setup wizard", "getting started", "quick setup", "configuration"]
 ---
 
-The OOPSpam Setup Wizard helps you configure the plugin quickly after installation. It walks you through the essential steps to get spam protection running on your site.
+The oopspam Setup Wizard helps you configure the plugin quickly after installation. It walks you through the essential steps to get spam protection running on your site.
 
 ## When the Wizard Appears
 
@@ -20,7 +20,7 @@ The setup wizard automatically opens when:
 If you already have an API key configured, the wizard marks itself as complete and won't redirect you.
 
 {{< callout >}}
-You can always access the Setup Wizard from the OOPSpam menu: **OOPSpam Anti-Spam → ↺ Setup Wizard**
+You can always access the Setup Wizard from the oopspam menu: **oopspam Anti-Spam → ↺ Setup Wizard**
 {{< /callout >}}
 
 ---
@@ -29,11 +29,11 @@ You can always access the Setup Wizard from the OOPSpam menu: **OOPSpam Anti-Spa
 
 ![Setup Wizard Step 1 - API Key](wizard-step1.png)
 
-Enter your OOPSpam API key to connect the plugin to the spam detection service.
+Enter your oopspam API key to connect the plugin to the spam detection service.
 
-- If you don't have an API key yet, click the link to create a free account on the OOPSpam Dashboard
+- If you don't have an API key yet, click the link to create a free account on the oopspam Dashboard
 - If you already have an API key, it will be pre-filled
-- Choose your API key source: **OOPSpam Dashboard** (default) or **RapidAPI**
+- Choose your API key source: **oopspam Dashboard** (default) or **RapidAPI**
 
 ---
 
@@ -84,7 +84,7 @@ If WooCommerce is detected, you will see an additional section with a checkbox l
 - **Block orders from unknown origin**: Blocks orders without proper referrer information
 - **Require valid device type**: Blocks orders from fake browsers that do not properly identify themselves
 - **Block Cloud Providers**: Blocks traffic from cloud hosting providers and datacenters, which are often used by bots to send spam orders
-- **Extra Screening**: Applies additional checks for stricter spam filtering on the OOPSpam API side
+- **Extra Screening**: Applies additional checks for stricter spam filtering on the oopspam API side
 
 ---
 
@@ -98,7 +98,7 @@ Configure which countries can submit forms on your site:
 - **Country Blocklist**: Reject submissions from selected countries
 - **Skip**: Don't configure country filtering right now
 
-You can always adjust these settings later under **OOPSpam Anti-Spam → Settings**.
+You can always adjust these settings later under **oopspam Anti-Spam → Settings**.
 
 ---
 

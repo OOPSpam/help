@@ -5,10 +5,10 @@ weight: 9
 draft: false
 # search related keywords
 keywords: ["abilities", "ai", "assistant", "mcp", "automation", "chatgpt", "claude"]
-description: "Let AI assistants and automation tools work with OOPSpam on your WordPress site. Learn how to enable the Abilities API and what it lets an assistant do for you."
+description: "Let AI assistants and automation tools work with oopspam on your WordPress site. Learn how to enable the Abilities API and what it lets an assistant do for you."
 ---
 
-The OOPSpam WordPress plugin can connect to AI assistants and automation tools through WordPress's Abilities API. Once enabled, an assistant (for example, one connected through the official WordPress MCP Adapter plugin) can check submissions for spam, show you what was blocked and why, report mistakes back to OOPSpam, and manage your blocked and allowed lists for you.
+The oopspam WordPress plugin can connect to AI assistants and automation tools through WordPress's Abilities API. Once enabled, an assistant (for example, one connected through the official WordPress MCP Adapter plugin) can check submissions for spam, show you what was blocked and why, report mistakes back to oopspam, and manage your blocked and allowed lists for you.
 
 No coding is required to benefit from this. You turn the feature on in the plugin settings, and from then on you can simply ask your assistant.
 
@@ -17,7 +17,7 @@ No coding is required to benefit from this. You turn the feature on in the plugi
 Before you start, make sure your site meets these requirements:
 
 - **WordPress 6.9 or newer.** The Abilities API is only available in WordPress 6.9 and above. If your site is older, the setting has no effect until WordPress is updated.
-- **OOPSpam plugin version 1.2.79 or newer** with a valid [API key configured](../configuration/#quick-set-up).
+- **oopspam plugin version 1.2.79 or newer** with a valid [API key configured](../configuration/#quick-set-up).
 - **An assistant or tool that can talk to WordPress abilities**, such as the official [WordPress MCP Adapter plugin](https://github.com/WordPress/mcp-adapter), the WordPress REST API, or another plugin.
 
 {{< callout type="info" >}}
@@ -27,14 +27,14 @@ Before you start, make sure your site meets these requirements:
 ## How to enable it
 
 1. Log in to your WordPress dashboard.
-2. Go to **OOPSpam Anti-Spam -> Settings**.
+2. Go to **oopspam Anti-Spam -> Settings**.
 3. Scroll down to the **Miscellaneous Settings** section.
 4. Tick the **Enable Abilities API (AI & automation)** checkbox.
 5. Click **Save Changes**.
 
-![Enable Abilities API setting in OOPSpam WordPress plugin](abilities-api-settings.png)
+![Enable Abilities API setting in oopspam WordPress plugin](abilities-api-settings.png)
 
-Once saved, OOPSpam's abilities are registered and ready for your assistant to discover and use.
+Once saved, oopspam's abilities are registered and ready for your assistant to discover and use.
 
 {{< callout type="warning" >}}
   If the checkbox says the feature requires WordPress 6.9 or newer, your site is not on a new enough version yet. Update WordPress first, then come back and enable the setting.
@@ -42,7 +42,7 @@ Once saved, OOPSpam's abilities are registered and ready for your assistant to d
 
 ## Connect your AI tool
 
-Enabling the setting makes OOPSpam's abilities available, but your AI tool still needs a way to sign in to your site. WordPress handles this with **Application Passwords**: a separate password created just for one tool or device. It is not your normal login password, and you can revoke it at any time without changing how you log in.
+Enabling the setting makes oopspam's abilities available, but your AI tool still needs a way to sign in to your site. WordPress handles this with **Application Passwords**: a separate password created just for one tool or device. It is not your normal login password, and you can revoke it at any time without changing how you log in.
 
 To create one:
 
@@ -77,30 +77,30 @@ After enabling the Abilities API, you can ask your assistant to help with your s
 
 ### See how much spam your site is getting
 
-Ask questions like "How much spam has OOPSpam blocked on my website this month?" or "Show me my spam stats." The assistant can report how many spam and legitimate messages OOPSpam has caught, both today and in total.
+Ask questions like "How much spam has oopspam blocked on my website this month?" or "Show me my spam stats." The assistant can report how many spam and legitimate messages oopspam has caught, both today and in total.
 
-![Asking an AI assistant for OOPSpam spam statistics](abilities-api-stats.png)
+![Asking an AI assistant for oopspam spam statistics](abilities-api-stats.png)
 
 ### Review what was blocked and why
 
-Ask "Show me the last few spam messages and why each one was blocked" or "What did OOPSpam block recently?" The assistant can list recent blocked submissions and explain the reason and spam score behind each one.
+Ask "Show me the last few spam messages and why each one was blocked" or "What did oopspam block recently?" The assistant can list recent blocked submissions and explain the reason and spam score behind each one.
 
 ![Asking an AI assistant to explain recent blocked spam](abilities-api-recent-spam.png)
 
 ### Check a message before it goes out
 
-Paste the content of a message, an email address, or an IP and ask "Is this spam?" The assistant checks it through the same OOPSpam detection pipeline used by your forms and tells you whether it looks like spam, with a score and reason.
+Paste the content of a message, an email address, or an IP and ask "Is this spam?" The assistant checks it through the same oopspam detection pipeline used by your forms and tells you whether it looks like spam, with a score and reason.
 
 ### Report mistakes to improve accuracy
 
-If a message was wrongly blocked, or spam got through, ask the assistant to report it. It sends feedback to OOPSpam so the service can learn from the mistake and get more accurate over time.
+If a message was wrongly blocked, or spam got through, ask the assistant to report it. It sends feedback to oopspam so the service can learn from the mistake and get more accurate over time.
 
 ### Manage your blocked and allowed lists
 
 Ask things like "Block the email address `spam@example.com`", "Allow this IP address", or "What is currently on my blocklist?" The assistant can add or remove entries from your manual moderation lists and show you what is on them.
 
 {{< callout type="info" >}}
-  Everything an assistant can do is limited to OOPSpam spam protection. It cannot change your other site content, and it never sees your full API key, only a masked version.
+  Everything an assistant can do is limited to oopspam spam protection. It cannot change your other site content, and it never sees your full API key, only a masked version.
 {{< /callout >}}
 
 ## Available abilities
@@ -109,12 +109,12 @@ Under the hood, each of these actions is a registered "ability". The table below
 
 | Ability | What it does |
 | --- | --- |
-| `oopspam/status` | Returns a health snapshot: whether OOPSpam is configured, the masked API key, spam score threshold, and which protections are active |
+| `oopspam/status` | Returns a health snapshot: whether oopspam is configured, the masked API key, spam score threshold, and which protections are active |
 | `oopspam/check-submission` | Checks content, an IP, and an email through the full detection pipeline and returns whether it is spam, with a score and reason |
 | `oopspam/get-stats` | Returns the number of spam and legitimate (ham) entries, all-time and today |
 | `oopspam/list-recent-spam` | Returns the most recent blocked submissions, with the reason, score, email, IP, and form that triggered them |
 | `oopspam/list-moderation-lists` | Returns the current blocked and allowed emails, IPs, and blocked keywords |
-| `oopspam/report-submission` | Reports a submission to OOPSpam as spam or ham to improve detection accuracy |
+| `oopspam/report-submission` | Reports a submission to oopspam as spam or ham to improve detection accuracy |
 | `oopspam/block-email` | Adds an email address (or a wildcard such as `*@example.com`) to the blocked list |
 | `oopspam/unblock-email` | Removes an email address (or wildcard) from the blocked list |
 | `oopspam/allow-email` | Adds an email address (or wildcard) to the allowed list so it is never flagged |
@@ -128,7 +128,7 @@ Under the hood, each of these actions is a registered "ability". The table below
 
 For technical users building on top of this integration:
 
-- OOPSpam registers its abilities under the `oopspam` category when the feature is enabled and the [WordPress Abilities API](https://developer.wordpress.org/apis/abilities-api/) is available (WordPress 6.9+).
+- oopspam registers its abilities under the `oopspam` category when the feature is enabled and the [WordPress Abilities API](https://developer.wordpress.org/apis/abilities-api/) is available (WordPress 6.9+).
 - Abilities follow the `oopspam/name` pattern and expose JSON Schema for their inputs and outputs, so tools can discover and validate them automatically.
 - By default, only users with the `manage_options` capability (administrators) can execute them.
 - The plugin respects a `OOPSPAM_ENABLE_ABILITIES` constant defined in `wp-config.php` to force the feature on, and an `oopspam_are_abilities_enabled` filter to control it from code.

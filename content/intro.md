@@ -6,11 +6,11 @@ breadcrumbs: false
 weight: 1
 ---
 
-👋 Hello! Welcome to the OOPSpam documentation!
+👋 Hello! Welcome to the oopspam documentation!
 
-## What is OOPSpam?
+## What is oopspam?
 
-OOPSpam is a comprehensive anti-spam and abuse protection service that uses machine learning and advanced filtering to safeguard your website from malicious submissions in forms, comments, and other inputs. Its adaptable system ensures robust protection and a seamless user experience.
+oopspam is a comprehensive anti-spam and abuse protection service that uses machine learning and advanced filtering to safeguard your website from malicious submissions in forms, comments, and other inputs. Its adaptable system ensures robust protection and a seamless user experience.
 
 **Key Features:**
 
@@ -33,8 +33,8 @@ OOPSpam is a comprehensive anti-spam and abuse protection service that uses mach
 Dive right into the following section to get started:
 
 {{< cards cols="4">}}
-{{< card link="https://www.oopspam.com/docs/" title="OOPSpam API ↗" icon="code" subtitle="Integrate custom solutions with the OOPSpam API." >}}
-{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the OOPSpam WordPress plugin." >}}
-{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate OOPSpam into Zapier, Make, or Bubble.io workflows." >}}
-{{< card link="https://help.oopspam.com/report/" title="Report" icon="microphone" subtitle="Train OOPSpam to adapt to your specific use case." >}}
+{{< card link="https://www.oopspam.com/docs/" title="oopspam API ↗" icon="code" subtitle="Integrate custom solutions with the oopspam API." >}}
+{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
+{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
+{{< card link="https://help.oopspam.com/report/" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
 {{< /cards >}}

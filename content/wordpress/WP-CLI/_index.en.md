@@ -5,10 +5,10 @@ weight: 8
 draft: false
 # search related keywords
 keywords: ["wp-cli", "command line", "settings", "automation", "import", "export"]
-description: "Manage the OOPSpam WordPress plugin from the command line with WP-CLI. View status, get and set settings, and import or export your configuration."
+description: "Manage the oopspam WordPress plugin from the command line with WP-CLI. View status, get and set settings, and import or export your configuration."
 ---
 
-The OOPSpam WordPress plugin ships with a set of WP-CLI commands that let you manage its settings from the command line. This is useful for automating configuration, rolling out the plugin across many sites, or managing settings on servers where you don't have access to the WordPress dashboard.
+The oopspam WordPress plugin ships with a set of WP-CLI commands that let you manage its settings from the command line. This is useful for automating configuration, rolling out the plugin across many sites, or managing settings on servers where you don't have access to the WordPress dashboard.
 
 All commands live under the `oopspam` namespace and require [WP-CLI](https://wp-cli.org/) to be installed:
 

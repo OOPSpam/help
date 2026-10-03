@@ -16,7 +16,7 @@ You can find your API key in the top right corner of the dashboard's main page, 
 
 ## How do I rotate my API key?
 
-You can now rotate your OOPSpam API key yourself — no need to contact support.
+You can now rotate your oopspam API key yourself — no need to contact support.
 
 **Where to find it:** Account Settings → API Key (or go directly to [https://app.oopspam.com/Identity/Account/Manage/ApiKey](https://app.oopspam.com/Identity/Account/Manage/ApiKey)).
 
@@ -90,8 +90,8 @@ A few things to keep in mind:
 Dive right into the following section to get started:
 
 {{< cards cols="4">}}
-{{< card link="https://www.oopspam.com/docs/" title="OOPSpam API ↗" icon="code" subtitle="Integrate custom solutions with the OOPSpam API." >}}
-{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the OOPSpam WordPress plugin." >}}
-{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate OOPSpam into Zapier, Make, or Bubble.io workflows." >}}
-{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train OOPSpam to adapt to your specific use case." >}}
+{{< card link="https://www.oopspam.com/docs/" title="oopspam API ↗" icon="code" subtitle="Integrate custom solutions with the oopspam API." >}}
+{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
+{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
+{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
 {{< /cards >}}
