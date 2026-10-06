@@ -1,11 +1,12 @@
 ---
-title: "Logs"
+title: "Spam Logs: Review and Report Form Entries"
+linkTitle: "Logs"
 date: 2026-07-30T11:02:05+06:00
 weight: 2
 draft: false
 # search related keywords
 keywords: [""]
-description: "Manage spam and legitimate form submissions in oopspam. Learn how to review entries, report false positives, and maintain your forms efficiently."
+description: "Review blocked and allowed form submissions in the oopspam WordPress plugin, report false positives and missed spam, and export entries to CSV."
 ---
 
 ## Logs in the WordPress Dashboard

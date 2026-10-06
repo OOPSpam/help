@@ -1,15 +1,15 @@
 ---
-title: "WordPress integration"
+title: "oopspam WordPress Plugin: Install and Set Up"
 linkTitle: "WordPress"
 date: 2026-07-30T11:02:05+06:00
-description: "Learn how to set up oopspam WordPress Plugin and protect your forms and comments from spam"
 type : "docs"
 weight: 2
+description: "Install the oopspam Anti-Spam plugin for WordPress, see which form, membership and checkout plugins it protects, and get set up in minutes."
 ---
 
 ## Introduction
 
-[The oopspam plugin for WordPress](https://wordpress.org/plugins/oopspam-anti-spam/) integrates with the [the oopspam API](https://www.oopspam.com) to protect your website's comment system, registration, and major contact form builders from spam.
+[The oopspam plugin for WordPress](https://wordpress.org/plugins/oopspam-anti-spam/) integrates with [the oopspam API](https://www.oopspam.com/docs/) to protect your website's comment system, registration, and major contact form builders from spam.
 
 ## How oopspam Protects Your Website
 
@@ -115,6 +115,16 @@ After the plugin is installed and activated, you can enable spam protection for 
 
 Be sure to check out the [Configuration](./configuration/) page for more information on different settings and how to configure the plugin.
 
+Prefer a guided setup? The [Setup Wizard](./setup-wizard/) walks you through the API key, form protection and country filtering. If something doesn't work as expected, see [Troubleshooting](./troubleshooting/).
+
+## Learn more
+
+- [oopspam for WordPress](https://www.oopspam.com/wordpress): features, supported plugins and pricing
+- [Best anti-spam plugins for WordPress](https://www.oopspam.com/blog/7-best-anti-spam-plugins-for-wordpress)
+- [Why legitimate form submissions get flagged as spam](https://www.oopspam.com/blog/why-legitimate-form-submissions-get-flagged-as-spam-and-how-to-reduce-false-positives)
+- [Protecting forms with rate limiting in WordPress](https://www.oopspam.com/blog/protecting-forms-with-rate-limiting-in-wordpress-using-oopspam)
+- [How to block countries from your website](https://www.oopspam.com/blog/how-to-block-countries-from-your-website-the-complete-guide)
+
 
 ## Next
 
@@ -122,7 +132,7 @@ Dive right into the following section to get started:
 
 {{< cards cols="4">}}
 {{< card link="https://www.oopspam.com/docs/" title="oopspam API ↗" icon="code" subtitle="Integrate custom solutions with the oopspam API." >}}
-{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
-{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
-{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
+{{< card link="https://help.oopspam.com/wordpress/" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
+{{< card link="https://help.oopspam.com/other-integrations/" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
+{{< card link="https://help.oopspam.com/report/" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
 {{< /cards >}}

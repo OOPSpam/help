@@ -16,7 +16,7 @@ layout: hextra-home
 </div>
 
 <div class="hx-mb-6">
-{{< hextra/hero-button text="Get Started" link="intro" >}}
+{{< hextra/hero-button text="Get Started" link="intro/" >}}
 </div>
 
 <div class="hx-mt-6"></div>
@@ -64,7 +64,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Account"
-    link="/account"
+    link="/account/"
     subtitle="Manage your account, subscriptions, and billing."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="images/user.webp"

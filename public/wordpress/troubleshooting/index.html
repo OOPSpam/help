@@ -11,9 +11,8 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 
-  <title>Troubleshooting – OOPSpam Support Center &amp; Knowledge base</title>
-  <meta name="description" content="If your question about this or any other topic is not answered here, please reach out to our support team for assistance. We are always happy to help.
-Form submissions on my WordPress websites are being flagged as spam. If your form has a textarea field (usually this field is used for longer form fields like message) and it is not a required field (or can be less than 20 characters) in your form then make sure you uncheck the “Consider short messages as spam” setting in the OOPSpam WordPress plugin settings. This setting will prevent form submissions if a textarea field in your form is too short to be considered a meaningful sentence." />
+  <title>Troubleshooting the oopspam WordPress Plugin | oopspam Help</title>
+  <meta name="description" content="Fixes for common oopspam plugin problems: real messages flagged as spam, spam still getting through, API limit warnings and missing notifications." />
 
   
     <link rel="canonical" href="//localhost:1313/wordpress/troubleshooting/" itemprop="url" />
@@ -21,25 +20,23 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
 
   
 
-<meta property="og:title" content="Troubleshooting" />
-<meta property="og:description" content="Protect your website from spam with OOPSpam&#39;s API &amp; WordPress plugin. Includes integrations with Make, Zapier, Bubble.io, plus setup guides &amp; privacy settings." />
+<meta property="og:title" content="Troubleshooting the oopspam WordPress Plugin" />
+<meta property="og:description" content="Fixes for common oopspam plugin problems: real messages flagged as spam, spam still getting through, API limit warnings and missing notifications." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="//localhost:1313/wordpress/troubleshooting/" /><meta property="og:image" content="//localhost:1313/oopspam-knowledgebase-meta.png"/>
 
   
-  <meta itemprop="name" content="Troubleshooting">
-  <meta itemprop="description" content="If your question about this or any other topic is not answered here, please reach out to our support team for assistance. We are always happy to help.
-Form submissions on my WordPress websites are being flagged as spam. If your form has a textarea field (usually this field is used for longer form fields like message) and it is not a required field (or can be less than 20 characters) in your form then make sure you uncheck the “Consider short messages as spam” setting in the OOPSpam WordPress plugin settings. This setting will prevent form submissions if a textarea field in your form is too short to be considered a meaningful sentence.">
+  <meta itemprop="name" content="Troubleshooting the oopspam WordPress Plugin">
+  <meta itemprop="description" content="Fixes for common oopspam plugin problems: real messages flagged as spam, spam still getting through, API limit warnings and missing notifications.">
   <meta itemprop="datePublished" content="2024-10-21T11:02:05+06:00">
-  <meta itemprop="dateModified" content="2024-10-21T11:02:05+06:00">
-  <meta itemprop="wordCount" content="281">
+  <meta itemprop="dateModified" content="2026-10-03T09:40:30+04:00">
+  <meta itemprop="wordCount" content="1273">
   <meta itemprop="image" content="//localhost:1313/oopspam-knowledgebase-meta.png">
-  <meta itemprop="keywords" content="warning">
+  <meta itemprop="keywords" content="troubleshooting,false positive,flagged as spam,still getting spam,api limit,warning,notifications">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//localhost:1313/oopspam-knowledgebase-meta.png">
-  <meta name="twitter:title" content="Troubleshooting">
-  <meta name="twitter:description" content="If your question about this or any other topic is not answered here, please reach out to our support team for assistance. We are always happy to help.
-Form submissions on my WordPress websites are being flagged as spam. If your form has a textarea field (usually this field is used for longer form fields like message) and it is not a required field (or can be less than 20 characters) in your form then make sure you uncheck the “Consider short messages as spam” setting in the OOPSpam WordPress plugin settings. This setting will prevent form submissions if a textarea field in your form is too short to be considered a meaningful sentence.">
+  <meta name="twitter:title" content="Troubleshooting the oopspam WordPress Plugin">
+  <meta name="twitter:description" content="Fixes for common oopspam plugin problems: real messages flagged as spam, spam still getting through, API limit warnings and missing notifications.">
 
     <link href="/css/compiled/main.css" rel="stylesheet" />
 
@@ -74,15 +71,15 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
     }
   </script>
 
-  
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"//localhost:1313/wordpress/troubleshooting/#article","@type":"TechArticle","about":{"@id":"https://www.oopspam.com/#software"},"author":{"@id":"https://www.oopspam.com/#organization"},"dateModified":"2026-10-03T09:40:30+04:00","description":"Fixes for common oopspam plugin problems: real messages flagged as spam, spam still getting through, API limit warnings and missing notifications.","headline":"Troubleshooting the oopspam WordPress Plugin","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"oopspam Help","url":"//localhost:1313/"},"publisher":{"@id":"https://www.oopspam.com/#organization"},"url":"//localhost:1313/wordpress/troubleshooting/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"//localhost:1313/","name":"oopspam Help","position":1},{"@type":"ListItem","item":"//localhost:1313/wordpress/","name":"WordPress","position":2},{"@type":"ListItem","item":"//localhost:1313/wordpress/troubleshooting/","name":"Troubleshooting","position":3}]},{"@id":"//localhost:1313/wordpress/troubleshooting/#faq","@type":"FAQPage","mainEntity":[{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Check these settings in oopspam Anti-Spam → Settings, in this order: Consider short messages as spam. If your form’s message (textarea) field is optional, or people often write fewer than 20 characters, turn this setting off. Otherwise short but genuine messages are blocked. Sensitivity Level. Keep it at the recommended level 3 (Moderate). If you still see false positives at level 3, turn on the experimental Reduce False Positives option below the slider. Country and language filters. A country allowlist or blocklist, or a language allowlist, blocks every submission that doesn’t match, however genuine it is. Check that your real customers’ countries and languages are allowed. IP filtering. Block VPNs and Block Cloud Providers also block real people who use a VPN or a corporate proxy. Turn them off to test. Minimum time between page load and submission. Browser autofill can complete a form in a second or two. If you set this above 2–3 seconds, lower it. Manual Moderation. A blocked keyword matches anywhere in a message, regardless of capitalization, so a short or common word can block real messages. Then report the entry: open Form Spam Entries, hover over it and click Not Spam. …"},"name":"Why are legitimate form submissions being flagged as spam?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Is the form protected? Make sure Activate Spam Protection is checked for the form plugin you use. Each form plugin has its own toggle, and only comments are protected by default. If the submission isn’t in Form Spam Entries or Form Valid Entries, oopspam never saw it. Is the right field being checked? The plugin analyzes the first textarea field. If your form has several, enter the ID of the message field in The main content field ID for that form plugin. Report what got through. In Form Valid Entries, hover over the entry and click Spam. Reports teach oopspam what spam looks like on your site. Tighten the filters for the pattern you see. Spam from countries you don’t serve → a country blocklist or allowlist. Messages in a language you don’t support → the language allowlist. Floods from the same sender → rate limiting. Bots on servers → Block Cloud Providers. One persistent sender or phrase → Manual Moderation. Raise detection. Move the Sensitivity Level slider up a step, or turn on the experimental Extra Screening option. Is the spam relevant to your business but still unwanted? Sales pitches and off-topic requests aren’t always classic spam. Contextual Detection judges each …"},"name":"Why am I still getting spam with oopspam installed?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Confirm that you have a valid API key. Make sure you have registered on the oopspam Dashboard and copied the key. Paste the API key into My API Key in the oopspam WordPress settings. Select oopspam Dashboard from I got my API Key from. Check Activate Spam Protection for the contact form plugin you have. Wait for the first form or comment submission to come in. The API usage numbers update with each submission, and the warning disappears. If the warning stays, check that a payment didn’t fail. After three failed payment attempts the API key is restricted until billing details are updated. See Account."},"name":"Why do I see an API limit warning when I’m on a paid plan?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Submit your form, or post a comment, using one of the test email addresses or the sample message on the Testing page. You should see your form’s error message, and the entry should appear in Form Spam Entries. If it goes through, see “Why am I still getting spam” above."},"name":"How can I check that spam protection is working?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"First check Form Spam Entries. Blocked submissions don’t trigger your form’s notification email, so a genuine message that was flagged looks like a missing email. If it’s there, mark it Not Spam and see the false positives section above. If the submission is in Form Valid Entries, oopspam allowed it and the problem is email delivery. These guides cover the usual causes for each form plugin: WPForms not sending email notifications Gravity Forms not sending email notifications Elementor Forms not sending email notifications Fluent Forms not sending email notifications WS Form not sending email notifications"},"name":"Why are my form notification emails not arriving?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Your site is probably behind a CDN or proxy such as Cloudflare or Sucuri, so the plugin sees the proxy’s IP address instead of the visitor’s. Turn on Trust proxy headers under Miscellaneous Settings. Only enable it if you trust your proxy service. Country filters, rate limiting and IP blocking all depend on the real visitor IP."},"name":"Why do all submissions show the same IP address or the wrong country?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Trusted Countries is only available when the privacy setting Do not analyze IP addresses is off. Without the visitor’s IP address, the plugin can’t tell which country a submission came from."},"name":"Why can’t I find the Trusted Countries setting?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Contextual Detection judges the message text against your Website Context description, so it needs a message to work with. Use it only on forms with a required textarea field. Then make the context more specific: list the kinds of messages you expect and the kinds you consider spam, as in the example on the Configuration page. While Contextual Detection is on, standard spam detection is turned off."},"name":"Why is Contextual Detection blocking or allowing the wrong messages?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Form plugins have their own spam message setting in the oopspam settings, for example Elementor Form Spam Message, and WooCommerce has WooCommerce Spam Order \u0026amp; Registration Message. Use it to tell blocked visitors how else to reach you, such as an email address. The message is only shown to submissions oopspam blocks, so your address stays hidden from everyone else."},"name":"How do I let a blocked visitor contact me another way?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"The Form Spam Entries and Form Valid Entries tables are emptied automatically once a month by default. You can change this to every two weeks under Additional settings, and use Export to CSV on either table to keep a copy. Entries you reported stay visible on the Reported page in the oopspam Dashboard until they are resolved."},"name":"Why did my spam and valid entries disappear?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"By default oopspam moves spam comments to the Spam folder under Comments. To send them to the Trash instead, change Move spam comments to under Additional settings."},"name":"Where do spam comments go?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Spam bots also abuse the WordPress search box, flooding it with spam queries. Turn on Protect against internal search spam under Additional settings. Further reading: How to protect your WordPress website from internal search spam"},"name":"Why is my WordPress site search getting spam queries?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"oopspam protects WooCommerce registration, login and checkout, and adds fraud checks: honeypot fields, blocking of orders from unknown origins, failed-payment limits per IP, and blocking by order amount or billing address. See the WooCommerce settings for each option. Further reading: How to protect your store from fake orders, card testing and checkout spam"},"name":"How do I stop fake orders and card testing in WooCommerce?"}]}]}</script>
 </head>
 <body dir="ltr"><div class="nav-container hx-sticky hx-top-0 hx-z-20 hx-w-full hx-bg-transparent print:hx-hidden">
   <div class="nav-container-blur hx-pointer-events-none hx-absolute hx-z-[-1] hx-h-full hx-w-full hx-bg-white dark:hx-bg-dark hx-shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] contrast-more:hx-shadow-[0_0_0_1px_#000] dark:hx-shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] contrast-more:dark:hx-shadow-[0_0_0_1px_#fff]"></div>
 
   <nav class="hx-mx-auto hx-flex hx-items-center hx-justify-end hx-gap-2 hx-h-16 hx-px-6 hx-max-w-[90rem]">
     <a class="hx-flex hx-items-center hover:hx-opacity-75 ltr:hx-mr-auto rtl:hx-ml-auto" href="/">
-        <img class="hx-block dark:hx-hidden" src="/images/logo.svg" alt="OOPSpam Support Center &amp; Knowledge base" height="100" width="100" />
-        <img class="hx-hidden dark:hx-block" src="/images/logo-white.svg" alt="OOPSpam Support Center &amp; Knowledge base" height="100" width="100" />
+        <img class="hx-block dark:hx-hidden" src="/images/logo.svg" alt="oopspam Support Center &amp; Knowledge base" height="100" width="100" />
+        <img class="hx-hidden dark:hx-block" src="/images/logo-white.svg" alt="oopspam Support Center &amp; Knowledge base" height="100" width="100" />
     </a><a
             title="Documentation"
             href="/"
@@ -91,12 +88,12 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
           >
             <span class="hx-text-center">Documentation</span>
           </a><a
-            title="OOPSpam ↗"
+            title="oopspam ↗"
             href="https://www.oopspam.com"
             target="_blank" rel="noreferer"
             class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200"
           >
-            <span class="hx-text-center">OOPSpam ↗</span>
+            <span class="hx-text-center">oopspam ↗</span>
           </a><div class="search-wrapper hx-relative md:hx-w-64">
   <div class="hx-relative hx-flex hx-items-center hx-text-gray-900 contrast-more:hx-text-gray-800 dark:hx-text-gray-300 contrast-more:dark:hx-text-gray-300">
     <input
@@ -214,7 +211,7 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/wordpress/woocommerce/"
     
-  >WooCommerce Integration
+  >WooCommerce
     </a>
               
             </li><li class="hx-flex hx-flex-col "><a
@@ -235,9 +232,87 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
   
     <ul class='hx-flex hx-flex-col hx-gap-1 hx-relative before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] dark:before:hx-bg-neutral-800 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-pr-3 rtl:before:hx-right-0 ltr:hx-ml-3 rtl:hx-mr-3'><li>
               <a
-                href="#"
+                href="#why-are-legitimate-form-submissions-being-flagged-as-spam"
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
-              ></a>
+              >Why are legitimate form submissions being flagged as spam?</a>
+            </li>
+          <li>
+              <a
+                href="#why-am-i-still-getting-spam-with-oopspam-installed"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Why am I still getting spam with oopspam installed?</a>
+            </li>
+          <li>
+              <a
+                href="#why-do-i-see-an-api-limit-warning-when-im-on-a-paid-plan"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Why do I see an API limit warning when I&amp;rsquo;m on a paid plan?</a>
+            </li>
+          <li>
+              <a
+                href="#how-can-i-check-that-spam-protection-is-working"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >How can I check that spam protection is working?</a>
+            </li>
+          <li>
+              <a
+                href="#why-are-my-form-notification-emails-not-arriving"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Why are my form notification emails not arriving?</a>
+            </li>
+          <li>
+              <a
+                href="#why-do-all-submissions-show-the-same-ip-address-or-the-wrong-country"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Why do all submissions show the same IP address or the wrong country?</a>
+            </li>
+          <li>
+              <a
+                href="#why-cant-i-find-the-trusted-countries-setting"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Why can&amp;rsquo;t I find the Trusted Countries setting?</a>
+            </li>
+          <li>
+              <a
+                href="#why-is-contextual-detection-blocking-or-allowing-the-wrong-messages"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Why is Contextual Detection blocking or allowing the wrong messages?</a>
+            </li>
+          <li>
+              <a
+                href="#how-do-i-let-a-blocked-visitor-contact-me-another-way"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >How do I let a blocked visitor contact me another way?</a>
+            </li>
+          <li>
+              <a
+                href="#why-did-my-spam-and-valid-entries-disappear"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Why did my spam and valid entries disappear?</a>
+            </li>
+          <li>
+              <a
+                href="#where-do-spam-comments-go"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Where do spam comments go?</a>
+            </li>
+          <li>
+              <a
+                href="#why-is-my-wordpress-site-search-getting-spam-queries"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Why is my WordPress site search getting spam queries?</a>
+            </li>
+          <li>
+              <a
+                href="#how-do-i-stop-fake-orders-and-card-testing-in-woocommerce"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >How do I stop fake orders and card testing in WooCommerce?</a>
+            </li>
+          <li>
+              <a
+                href="#still-stuck-contact-support"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >Still stuck? Contact support</a>
             </li>
           </ul>
   
@@ -248,6 +323,14 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
     href="/wordpress/wp-cli/"
     
   >WP-CLI
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/wordpress/abilities-api/"
+    
+  >Abilities API
     </a>
               
             </li><li class="hx-flex hx-flex-col "><a
@@ -363,7 +446,7 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/wordpress/woocommerce/"
     
-  >WooCommerce Integration
+  >WooCommerce
     </a></li>
           <li class=""><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
@@ -385,6 +468,13 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
     href="/wordpress/wp-cli/"
     
   >WP-CLI
+    </a></li>
+          <li class=""><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/wordpress/abilities-api/"
+    
+  >Abilities API
     </a></li>
           <li class=""><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
@@ -430,11 +520,59 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
 <nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4" aria-label="table of contents">
     <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4"><p class="hx-mb-4 hx-font-semibold hx-tracking-tight">On this page</p><ul>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#form-submissions-on-my-wordpress-websites-are-being-flagged-as-spam">Form submissions on my WordPress websites are being flagged as spam.
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#why-are-legitimate-form-submissions-being-flagged-as-spam">Why are legitimate form submissions being flagged as spam?
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#im-a-paid-customer-but-i-see-warning-about-api-limit">I’m a paid customer but I see warning about API limit
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#why-am-i-still-getting-spam-with-oopspam-installed">Why am I still getting spam with oopspam installed?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#why-do-i-see-an-api-limit-warning-when-im-on-a-paid-plan">Why do I see an API limit warning when I’m on a paid plan?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#how-can-i-check-that-spam-protection-is-working">How can I check that spam protection is working?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#why-are-my-form-notification-emails-not-arriving">Why are my form notification emails not arriving?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#why-do-all-submissions-show-the-same-ip-address-or-the-wrong-country">Why do all submissions show the same IP address or the wrong country?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#why-cant-i-find-the-trusted-countries-setting">Why can’t I find the Trusted Countries setting?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#why-is-contextual-detection-blocking-or-allowing-the-wrong-messages">Why is Contextual Detection blocking or allowing the wrong messages?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#how-do-i-let-a-blocked-visitor-contact-me-another-way">How do I let a blocked visitor contact me another way?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#why-did-my-spam-and-valid-entries-disappear">Why did my spam and valid entries disappear?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#where-do-spam-comments-go">Where do spam comments go?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#why-is-my-wordpress-site-search-getting-spam-queries">Why is my WordPress site search getting spam queries?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#how-do-i-stop-fake-orders-and-card-testing-in-woocommerce">How do I stop fake orders and card testing in WooCommerce?
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#still-stuck-contact-support">Still stuck? Contact support
         </a>
       </li></ul>
       <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"><a class="hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50" href="https://github.com/oopspam/help/edit/main/content/wordpress/Troubleshooting/_index.en.md" target="_blank" rel="noreferer">Edit this page on GitHub →</a>
@@ -452,26 +590,77 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
         <div class="content">
-          <h1>Troubleshooting</h1>
-          <p>If your question about this or any other topic is not answered here, please reach out to our support team for assistance. We are always happy to help.</p>
-<h3>Form submissions on my WordPress websites are being flagged as spam.<span class="hx-absolute -hx-mt-20" id="form-submissions-on-my-wordpress-websites-are-being-flagged-as-spam"></span>
-    <a href="#form-submissions-on-my-wordpress-websites-are-being-flagged-as-spam" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>If your form has a textarea field (usually this field is used for longer form fields like message) and it is not a required field (or can be less than 20 characters) in your form then make sure you uncheck the &ldquo;Consider short messages as spam&rdquo; setting in the OOPSpam WordPress plugin settings. This setting will prevent form submissions if a textarea field in your form is too short to be considered a meaningful sentence.</p>
-<p>Another setting to pay attention to is the sensitivity level setting. Make sure it is set to recommended level 3.</p>
-<p>If all the above settings are configured correctly, please use <a href="https://www.oopspam.com/help/wordpress/form-entries/" target="_blank" rel="noopener">Form Spam Entries</a> to report false positives. The system will quickly adapt to your use case and you will likely not have this issue.</p>
-<h3>I&rsquo;m a paid customer but I see warning about API limit<span class="hx-absolute -hx-mt-20" id="im-a-paid-customer-but-i-see-warning-about-api-limit"></span>
-    <a href="#im-a-paid-customer-but-i-see-warning-about-api-limit" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>If you&rsquo;re experiencing an API limit warning on your WordPress dashboard, please follow these steps to resolve the issue:</p>
+          <h1>Troubleshooting the oopspam WordPress Plugin</h1>
+          <p>Start with the problem that matches what you see. If none of them fits, <a href="https://www.oopspam.com/#contact" target="_blank" rel="noopener">contact support</a> and include your site URL and, if you can, an example entry from the plugin&rsquo;s <a href="../form-entries/" >logs</a>.</p>
+<h2>Why are legitimate form submissions being flagged as spam?<span class="hx-absolute -hx-mt-20" id="why-are-legitimate-form-submissions-being-flagged-as-spam"></span>
+    <a href="#why-are-legitimate-form-submissions-being-flagged-as-spam" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Check these settings in <em>oopspam Anti-Spam → Settings</em>, in this order:</p>
 <ol>
-<li>Confirm that you have a valid API key. Make sure that you have registered on the <a href="https://app.oopspam.com" target="_blank" rel="noopener">OOPSpam Dashboard</a> and copied the key.</li>
-<li>Paste the API key into <em>My API Key</em> in the OOPSpam WordPress Settings.</li>
-<li>Select <em>OOPSpam Dashboard</em> from <em>I got my API Key from</em></li>
+<li><strong>Consider short messages as spam.</strong> If your form&rsquo;s message (textarea) field is optional, or people often write fewer than 20 characters, turn this setting off. Otherwise short but genuine messages are blocked.</li>
+<li><strong>Sensitivity Level.</strong> Keep it at the recommended level 3 (Moderate). If you still see false positives at level 3, turn on the experimental <strong>Reduce False Positives</strong> option below the slider.</li>
+<li><strong>Country and language filters.</strong> A country allowlist or blocklist, or a language allowlist, blocks every submission that doesn&rsquo;t match, however genuine it is. Check that your real customers&rsquo; countries and languages are allowed.</li>
+<li><strong>IP filtering.</strong> <strong>Block VPNs</strong> and <strong>Block Cloud Providers</strong> also block real people who use a VPN or a corporate proxy. Turn them off to test.</li>
+<li><strong>Minimum time between page load and submission.</strong> Browser autofill can complete a form in a second or two. If you set this above 2–3 seconds, lower it.</li>
+<li><strong>Manual Moderation.</strong> A blocked keyword matches anywhere in a message, regardless of capitalization, so a short or common word can block real messages.</li>
+</ol>
+<p>Then report the entry: open <strong>Form Spam Entries</strong>, hover over it and click <strong>Not Spam</strong>. oopspam learns from your reports, so the same kind of message is far less likely to be blocked again. See <a href="../../report/" >Reporting</a> for details.</p>
+<p>Further reading: <a href="https://www.oopspam.com/blog/why-legitimate-form-submissions-get-flagged-as-spam-and-how-to-reduce-false-positives" target="_blank" rel="noopener">Why legitimate form submissions get flagged as spam, and how to reduce false positives</a>.</p>
+<h2>Why am I still getting spam with oopspam installed?<span class="hx-absolute -hx-mt-20" id="why-am-i-still-getting-spam-with-oopspam-installed"></span>
+    <a href="#why-am-i-still-getting-spam-with-oopspam-installed" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ol>
+<li><strong>Is the form protected?</strong> Make sure <strong>Activate Spam Protection</strong> is checked for the form plugin you use. Each form plugin has its own toggle, and only comments are protected by default. If the submission isn&rsquo;t in <strong>Form Spam Entries</strong> or <strong>Form Valid Entries</strong>, oopspam never saw it.</li>
+<li><strong>Is the right field being checked?</strong> The plugin analyzes the first textarea field. If your form has several, enter the ID of the message field in <strong>The main content field ID</strong> for that form plugin.</li>
+<li><strong>Report what got through.</strong> In <strong>Form Valid Entries</strong>, hover over the entry and click <strong>Spam</strong>. Reports teach oopspam what spam looks like on your site.</li>
+<li><strong>Tighten the filters for the pattern you see.</strong> Spam from countries you don&rsquo;t serve → a country blocklist or allowlist. Messages in a language you don&rsquo;t support → the language allowlist. Floods from the same sender → rate limiting. Bots on servers → <strong>Block Cloud Providers</strong>. One persistent sender or phrase → <strong>Manual Moderation</strong>.</li>
+<li><strong>Raise detection.</strong> Move the <strong>Sensitivity Level</strong> slider up a step, or turn on the experimental <strong>Extra Screening</strong> option.</li>
+<li><strong>Is the spam relevant to your business but still unwanted?</strong> Sales pitches and off-topic requests aren&rsquo;t always classic spam. <a href="../configuration/#contextual-detection" >Contextual Detection</a> judges each message against a description of your business.</li>
+</ol>
+<p>Further reading: <a href="https://www.oopspam.com/blog/so-youre-using-oopspam-and-still-getting-spam" target="_blank" rel="noopener">So, you&rsquo;re using oopspam and still getting spam?</a></p>
+<h2>Why do I see an API limit warning when I&rsquo;m on a paid plan?<span class="hx-absolute -hx-mt-20" id="why-do-i-see-an-api-limit-warning-when-im-on-a-paid-plan"></span>
+    <a href="#why-do-i-see-an-api-limit-warning-when-im-on-a-paid-plan" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ol>
+<li>Confirm that you have a valid API key. Make sure you have registered on the <a href="https://app.oopspam.com" target="_blank" rel="noopener">oopspam Dashboard</a> and copied the key.</li>
+<li>Paste the API key into <em>My API Key</em> in the oopspam WordPress settings.</li>
+<li>Select <em>oopspam Dashboard</em> from <em>I got my API Key from</em>.</li>
 <li>Check <em>Activate Spam Protection</em> for the contact form plugin you have.</li>
 <li>Wait for the first form or comment submission to come in.</li>
-<li>The API usage numbers will be updated with each submission and the warning will be removed.</li>
+<li>The API usage numbers update with each submission, and the warning disappears.</li>
 </ol>
+<p>If the warning stays, check that a payment didn&rsquo;t fail. After three failed payment attempts the API key is restricted until billing details are updated. See <a href="../../account/#how-to-update-my-billing-information" >Account</a>.</p>
+<h2>How can I check that spam protection is working?<span class="hx-absolute -hx-mt-20" id="how-can-i-check-that-spam-protection-is-working"></span>
+    <a href="#how-can-i-check-that-spam-protection-is-working" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Submit your form, or post a comment, using one of the test email addresses or the sample message on the <a href="../testing/" >Testing</a> page. You should see your form&rsquo;s error message, and the entry should appear in <strong>Form Spam Entries</strong>. If it goes through, see &ldquo;Why am I still getting spam&rdquo; above.</p>
+<h2>Why are my form notification emails not arriving?<span class="hx-absolute -hx-mt-20" id="why-are-my-form-notification-emails-not-arriving"></span>
+    <a href="#why-are-my-form-notification-emails-not-arriving" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>First check <strong>Form Spam Entries</strong>. Blocked submissions don&rsquo;t trigger your form&rsquo;s notification email, so a genuine message that was flagged looks like a missing email. If it&rsquo;s there, mark it <strong>Not Spam</strong> and see the false positives section above.</p>
+<p>If the submission is in <strong>Form Valid Entries</strong>, oopspam allowed it and the problem is email delivery. These guides cover the usual causes for each form plugin:</p>
+<ul>
+<li><a href="https://www.oopspam.com/blog/wpforms-notification-issue" target="_blank" rel="noopener">WPForms not sending email notifications</a></li>
+<li><a href="https://www.oopspam.com/blog/gravity-forms-notification-issue" target="_blank" rel="noopener">Gravity Forms not sending email notifications</a></li>
+<li><a href="https://www.oopspam.com/blog/elementorforms-notification-issue" target="_blank" rel="noopener">Elementor Forms not sending email notifications</a></li>
+<li><a href="https://www.oopspam.com/blog/fluent-forms-notification-issue" target="_blank" rel="noopener">Fluent Forms not sending email notifications</a></li>
+<li><a href="https://www.oopspam.com/blog/wsform-notification-issue" target="_blank" rel="noopener">WS Form not sending email notifications</a></li>
+</ul>
+<h2>Why do all submissions show the same IP address or the wrong country?<span class="hx-absolute -hx-mt-20" id="why-do-all-submissions-show-the-same-ip-address-or-the-wrong-country"></span>
+    <a href="#why-do-all-submissions-show-the-same-ip-address-or-the-wrong-country" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Your site is probably behind a CDN or proxy such as Cloudflare or Sucuri, so the plugin sees the proxy&rsquo;s IP address instead of the visitor&rsquo;s. Turn on <strong>Trust proxy headers</strong> under <a href="../configuration/#miscellaneous-settings" >Miscellaneous Settings</a>. Only enable it if you trust your proxy service. Country filters, rate limiting and IP blocking all depend on the real visitor IP.</p>
+<h2>Why can&rsquo;t I find the Trusted Countries setting?<span class="hx-absolute -hx-mt-20" id="why-cant-i-find-the-trusted-countries-setting"></span>
+    <a href="#why-cant-i-find-the-trusted-countries-setting" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><strong>Trusted Countries</strong> is only available when the privacy setting <strong>Do not analyze IP addresses</strong> is off. Without the visitor&rsquo;s IP address, the plugin can&rsquo;t tell which country a submission came from.</p>
+<h2>Why is Contextual Detection blocking or allowing the wrong messages?<span class="hx-absolute -hx-mt-20" id="why-is-contextual-detection-blocking-or-allowing-the-wrong-messages"></span>
+    <a href="#why-is-contextual-detection-blocking-or-allowing-the-wrong-messages" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Contextual Detection judges the message text against your <strong>Website Context</strong> description, so it needs a message to work with. Use it only on forms with a required textarea field. Then make the context more specific: list the kinds of messages you expect and the kinds you consider spam, as in the <a href="../configuration/#contextual-detection" >example on the Configuration page</a>. While Contextual Detection is on, standard spam detection is turned off.</p>
+<h2>How do I let a blocked visitor contact me another way?<span class="hx-absolute -hx-mt-20" id="how-do-i-let-a-blocked-visitor-contact-me-another-way"></span>
+    <a href="#how-do-i-let-a-blocked-visitor-contact-me-another-way" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Form plugins have their own spam message setting in the oopspam settings, for example <strong>Elementor Form Spam Message</strong>, and WooCommerce has <strong>WooCommerce Spam Order &amp; Registration Message</strong>. Use it to tell blocked visitors how else to reach you, such as an email address. The message is only shown to submissions oopspam blocks, so your address stays hidden from everyone else.</p>
+<h2>Why did my spam and valid entries disappear?<span class="hx-absolute -hx-mt-20" id="why-did-my-spam-and-valid-entries-disappear"></span>
+    <a href="#why-did-my-spam-and-valid-entries-disappear" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>The <strong>Form Spam Entries</strong> and <strong>Form Valid Entries</strong> tables are emptied automatically once a month by default. You can change this to every two weeks under <a href="../configuration/#additional-settings" >Additional settings</a>, and use <strong>Export to CSV</strong> on either table to keep a copy. Entries you reported stay visible on the <a href="https://app.oopspam.com/ReportedSpam" target="_blank" rel="noopener">Reported page</a> in the oopspam Dashboard until they are resolved.</p>
+<h2>Where do spam comments go?<span class="hx-absolute -hx-mt-20" id="where-do-spam-comments-go"></span>
+    <a href="#where-do-spam-comments-go" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>By default oopspam moves spam comments to the Spam folder under <em>Comments</em>. To send them to the Trash instead, change <strong>Move spam comments to</strong> under <a href="../configuration/#additional-settings" >Additional settings</a>.</p>
+<h2>Why is my WordPress site search getting spam queries?<span class="hx-absolute -hx-mt-20" id="why-is-my-wordpress-site-search-getting-spam-queries"></span>
+    <a href="#why-is-my-wordpress-site-search-getting-spam-queries" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Spam bots also abuse the WordPress search box, flooding it with spam queries. Turn on <strong>Protect against internal search spam</strong> under <a href="../configuration/#additional-settings" >Additional settings</a>.</p>
+<p>Further reading: <a href="https://www.oopspam.com/blog/how-to-protect-your-wordpress-website-from-internal-search-spam" target="_blank" rel="noopener">How to protect your WordPress website from internal search spam</a></p>
+<h2>How do I stop fake orders and card testing in WooCommerce?<span class="hx-absolute -hx-mt-20" id="how-do-i-stop-fake-orders-and-card-testing-in-woocommerce"></span>
+    <a href="#how-do-i-stop-fake-orders-and-card-testing-in-woocommerce" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>oopspam protects WooCommerce registration, login and checkout, and adds fraud checks: honeypot fields, blocking of orders from unknown origins, failed-payment limits per IP, and blocking by order amount or billing address. See the <a href="../woocommerce/" >WooCommerce settings</a> for each option.</p>
+<p>Further reading: <a href="https://www.oopspam.com/blog/how-to-protect-your-store-from-fake-orders-card-testing-and-checkout-spam" target="_blank" rel="noopener">How to protect your store from fake orders, card testing and checkout spam</a></p>
+<h2>Still stuck? Contact support<span class="hx-absolute -hx-mt-20" id="still-stuck-contact-support"></span>
+    <a href="#still-stuck-contact-support" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><a href="https://www.oopspam.com/#contact" target="_blank" rel="noopener">Contact support</a> with your site URL and, if you can, an example entry. Looking for the plugin itself? See <a href="https://www.oopspam.com/wordpress" target="_blank" rel="noopener">oopspam for WordPress</a>.</p>
 
         </div>
         <div class="hx-mt-16"></div>
-        <div class="hx-mt-16"></div>
+        
+    <div class="hx-mt-12 hx-mb-8 hx-block hx-text-xs hx-text-gray-500 ltr:hx-text-right rtl:hx-text-left dark:hx-text-gray-400">Last updated on <time datetime="2026-10-03T09:40:30.000Z">October 3, 2026</time></div>
         
       </main>
     </article>
@@ -480,7 +669,7 @@ Form submissions on my WordPress websites are being flagged as spam. If your for
       <footer class="hextra-footer hx-bg-gray-100 hx-pb-[env(safe-area-inset-bottom)] dark:hx-bg-neutral-900 print:hx-bg-transparent"><div
     class="hx-max-w-screen-xl hx-mx-auto hx-flex hx-justify-center hx-py-12 hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-right),1.5rem)] hx-text-gray-600 dark:hx-text-gray-400 md:hx-justify-start"
   >
-    <div class="hx-flex hx-w-full hx-flex-col hx-items-center sm:hx-items-start"><div class="hx-mt-6 hx-text-xs">© 2025 OOPSpam LLC</div>
+    <div class="hx-flex hx-w-full hx-flex-col hx-items-center sm:hx-items-start"><div class="hx-mt-6 hx-text-xs">© 2026 oopspam LLC</div>
     </div>
   </div>
 </footer>

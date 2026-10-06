@@ -1,11 +1,12 @@
 ---
-title: "Reporting"
+title: "Report False Positives & Missed Spam"
+linkTitle: "Reporting"
 breadcrumbs: false
 date: 2024-10-21T11:02:05+06:00
 icon: "ti-agenda"
-description: "Learn how to report false positives and false negatives"
 type : "docs"
 weight: 4
+description: "Report real messages marked as spam, or spam that got through, from WordPress, the API, Zapier, Make or Bubble.io, so oopspam learns from your site."
 ---
 
 The oopspam API takes an optimistic approach and avoids blocking messages unless it's confident they are spam. However, false positives (legitimate messages marked as spam) and false negatives (spam messages marked as legitimate) can still occur.
@@ -53,7 +54,7 @@ Dive right into the following section to get started:
 
 {{< cards cols="4">}}
 {{< card link="https://www.oopspam.com/docs/" title="oopspam API ↗" icon="code" subtitle="Integrate custom solutions with the oopspam API." >}}
-{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
-{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
-{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
+{{< card link="https://help.oopspam.com/wordpress/" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
+{{< card link="https://help.oopspam.com/other-integrations/" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
+{{< card link="https://help.oopspam.com/report/" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
 {{< /cards >}}

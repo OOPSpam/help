@@ -1,5 +1,6 @@
 ---
 title: "Setup Wizard"
+linkTitle: "Setup Wizard"
 date: 2026-07-30T11:02:05+06:00
 weight: 0
 draft: false
@@ -116,7 +117,7 @@ Once you complete the wizard, the plugin is fully configured and protecting your
 ## Next
 
 {{< cards cols="3">}}
-{{< card link="../configuration" title="Configuration" icon="cog" subtitle="Explore all plugin settings" >}}
-{{< card link="../woocommerce" title="WooCommerce" icon="shopping-cart" subtitle="Advanced WooCommerce protection" >}}
-{{< card link="../form-entries" title="Form Entries" icon="table" subtitle="Manage spam and ham entries" >}}
+{{< card link="../configuration/" title="Configuration" icon="cog" subtitle="Explore all plugin settings" >}}
+{{< card link="../woocommerce/" title="WooCommerce" icon="shopping-cart" subtitle="Advanced WooCommerce protection" >}}
+{{< card link="../form-entries/" title="Form Entries" icon="table" subtitle="Manage spam and ham entries" >}}
 {{< /cards >}}

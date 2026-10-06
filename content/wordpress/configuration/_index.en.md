@@ -1,12 +1,13 @@
 ---
-title: "Configuration"
+title: "WordPress Plugin Settings & Configuration"
+linkTitle: "Configuration"
 breadcrumbs: false
 date: 2026-07-30T11:02:05+06:00
 weight: 1
 draft: false
 # search related keywords
 keywords: [""]
-description: "Set up oopspam WordPress plugin in minutes. Learn how to configure your API key, adjust sensitivity settings, and enable protection for contact forms and comments."
+description: "Every oopspam WordPress plugin setting explained: API key, sensitivity, country and language filters, IP filtering, rate limits, privacy and blocklists."
 ---
 
 ### Quick set up
@@ -175,7 +176,7 @@ There are additional settings that you may find useful:
 - **Consider short messages as spam**: Many spam messages are too short to be a meaningful sentence. This setting allows you to catch this type of spam.
 - **Protect against internal search spam**: When enabled, the plugin filters WordPress internal search queries for spam patterns, preventing spam bots from abusing your site's search functionality.
 
-The oopspam WordPress plugin also includes two additional menus: [Form Spam Entries and Form Valid Entries](../form-entries). These menus allow you to view and manage the submissions that the plugin has identified as spam or legitimate messages (ham).
+The oopspam WordPress plugin also includes two additional menus: [Form Spam Entries and Form Valid Entries](../form-entries/). These menus allow you to view and manage the submissions that the plugin has identified as spam or legitimate messages (ham).
 
 ![Form Spam and Ham Entries in oopspam WordPress plugin ](form-entries.png)
  
@@ -184,7 +185,7 @@ The oopspam WordPress plugin also includes two additional menus: [Form Spam Entr
 
 
 {{< callout type="info" >}}
-  Check [Logs](../form-entries) to learn more about these tables.
+  Check [Logs](../form-entries/) to learn more about these tables.
 {{< /callout >}}
 
 ### Miscellaneous Settings

@@ -1,5 +1,6 @@
 ---
-title: "WP-CLI"
+title: "WP-CLI Commands"
+linkTitle: "WP-CLI"
 date: 2026-08-27T11:02:05+06:00
 weight: 8
 draft: false

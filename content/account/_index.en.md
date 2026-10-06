@@ -1,11 +1,13 @@
 ---
-title: "Account"
+title: "API Key, Billing & Plan Changes"
+linkTitle: "Account"
 breadcrumbs: false
 date: 2026-09-22T11:02:05+06:00
 icon: "ti-user"
-description: "Learn how to manage your account."
 type : "docs"
+faq: true
 weight: 5
+description: "Find or rotate your oopspam API key, upgrade, downgrade or cancel your plan, update billing details, download invoices and add a VAT number."
 ---
 
 ## Where is my API Key?
@@ -30,7 +32,7 @@ A few things to know:
 - Limited to **3 rotations per calendar year** (the counter resets on January 1st).
 - The old key stops working instantly — make sure to update it everywhere you use it.
 
-## How to upgrade or downgrade, cancel?
+## How do I upgrade, downgrade or cancel my plan?
 
 ### Upgrading and downgrading
 
@@ -91,7 +93,7 @@ Dive right into the following section to get started:
 
 {{< cards cols="4">}}
 {{< card link="https://www.oopspam.com/docs/" title="oopspam API ↗" icon="code" subtitle="Integrate custom solutions with the oopspam API." >}}
-{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
-{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
-{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
+{{< card link="https://help.oopspam.com/wordpress/" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
+{{< card link="https://help.oopspam.com/other-integrations/" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
+{{< card link="https://help.oopspam.com/report/" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
 {{< /cards >}}

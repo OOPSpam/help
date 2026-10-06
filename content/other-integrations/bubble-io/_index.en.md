@@ -1,10 +1,12 @@
 ---
-title: "Bubble.io"
+title: "Bubble.io Spam Protection Plugin"
+linkTitle: "Bubble.io"
 date: 2024-10-21T11:02:05+06:00
 weight: 4
 draft: false
 # search related keywords
 keywords: [""]
+description: "Install the oopspam plugin for Bubble.io to check form submissions for spam inside your Bubble app workflows."
 ---
 
 [oopspam Bubble plugin](https://bubble.io/plugin/oopspam-spam-detection-1582908608700x936823858020745200) can be used to block spam registration and contact form submissions.
@@ -14,7 +16,7 @@ Here is an example how you can use the plugin to stop spam on your Bubble contac
 
 Check out [How to set up oopspam with Bubble.io app](https://www.oopspam.com/blog/spam-protection-for-bubble.io) article for more information.
 
-To report false positives and false negatives, see [the reporting documentation](/report).
+To report false positives and false negatives, see [the reporting documentation](/report/).
 
 ## Next
 
@@ -22,7 +24,7 @@ Dive right into the following section to get started:
 
 {{< cards cols="4">}}
 {{< card link="https://www.oopspam.com/docs/" title="oopspam API ↗" icon="code" subtitle="Integrate custom solutions with the oopspam API." >}}
-{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
-{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
-{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
+{{< card link="https://help.oopspam.com/wordpress/" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
+{{< card link="https://help.oopspam.com/other-integrations/" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
+{{< card link="https://help.oopspam.com/report/" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
 {{< /cards >}}

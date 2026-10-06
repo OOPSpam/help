@@ -1,6 +1,12 @@
 # Hugo configuration file
 title: oopspam Support Center & Knowledge base
 
+# SEO (6 Oct 2026): serve robots.txt (layouts/robots.txt), take each page's "last updated" date
+# from git history, and skip the empty /categories/ and /tags/ pages (they were in the sitemap).
+enableRobotsTXT: true
+enableGitInfo: true
+disableKinds: ["taxonomy", "term"]
+
 
 # import hextra as module
 module:
@@ -55,6 +61,10 @@ menu:
         icon: x-twitter
 
 params:
+  # Page titles read "<page title> | oopspam Help" (see layouts/partials/head.html)
+  titleSuffix: "oopspam Help"
+  # Show "Last updated on <date>" at the bottom of each page
+  displayUpdatedDate: true
   images:
     - "/oopspam-knowledgebase-meta.png"
   description: "Protect your website from spam with oopspam's API & WordPress plugin. Includes integrations with Make, Zapier, Bubble.io, plus setup guides & privacy settings."

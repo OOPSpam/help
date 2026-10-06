@@ -1,14 +1,13 @@
 ---
-title: "Multisite / Network"
+title: "WordPress Multisite Configuration"
+linkTitle: "Multisite / Network"
 breadcrumbs: false
 date: 2026-04-18T11:02:05+06:00
 weight: 4
 draft: false
 keywords: ["multisite", "network", "wordpress", "forms", "spam protection"]
-description: "Quickly configure the oopspam WordPress plugin for multisite environments. This guide covers API key setup, form integration, and enabling spam protection for various plugins and features."
+description: "Set up the oopspam WordPress plugin across a multisite network from wp-config.php: API key, form protection and spam settings for every site."
 ---
-
-# oopspam WordPress Multisite Configuration
 
 The oopspam WordPress plugin fully supports multisite environments. This guide explains how to configure the plugin globally using your `wp-config.php` file.
 

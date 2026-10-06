@@ -1,10 +1,12 @@
 ---
-title: "Zapier"
+title: "Zapier Spam Filter Integration"
+linkTitle: "Zapier"
 date: 2024-10-21T11:02:05+06:00
 weight: 2
 draft: false
 # search related keywords
 keywords: ["zapier"]
+description: "Add an oopspam spam check step to your Zaps to filter spam form submissions before they reach your CRM, inbox or spreadsheet."
 ---
 
 ### Connect oopspam to hundreds of other apps with Zapier
@@ -33,7 +35,7 @@ If you have any additional questions, you can open a ticket with Zapier Support 
 
 ### False positive and false negative reporting
 
-To report false positives and false negatives, see [the reporting documentation](/report).
+To report false positives and false negatives, see [the reporting documentation](/report/).
 
 ### Related blog posts:
 
@@ -49,7 +51,7 @@ Dive right into the following section to get started:
 
 {{< cards cols="4">}}
 {{< card link="https://www.oopspam.com/docs/" title="oopspam API ↗" icon="code" subtitle="Integrate custom solutions with the oopspam API." >}}
-{{< card link="https://help.oopspam.com/wordpress" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
-{{< card link="https://help.oopspam.com/other-integrations" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
-{{< card link="https://help.oopspam.com/report" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
+{{< card link="https://help.oopspam.com/wordpress/" title="WordPress" icon="table" subtitle="Comprehensive guide to the oopspam WordPress plugin." >}}
+{{< card link="https://help.oopspam.com/other-integrations/" title="Other integrations" icon="lightning-bolt" subtitle="Incorporate oopspam into Zapier, Make, or Bubble.io workflows." >}}
+{{< card link="https://help.oopspam.com/report/" title="Report" icon="microphone" subtitle="Train oopspam to adapt to your specific use case." >}}
 {{< /cards >}}

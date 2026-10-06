@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>OOPSpam Support Center &amp; Knowledge base – Reporting</title>
+    <title>oopspam Support Center &amp; Knowledge base – Report False Positives &amp; Missed Spam</title>
     <link>//localhost:1313/report/</link>
-    <description>Recent content in Reporting on OOPSpam Support Center &amp; Knowledge base</description>
+    <description>Recent content in Report False Positives &amp; Missed Spam on oopspam Support Center &amp; Knowledge base</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 21 Oct 2024 11:02:05 +0600</lastBuildDate>

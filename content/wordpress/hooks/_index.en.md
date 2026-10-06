@@ -1,5 +1,6 @@
 ---
-title: "Hooks"
+title: "WordPress Hooks & Filters"
+linkTitle: "Hooks"
 date: 2026-07-30T11:02:05+06:00
 weight: 3
 draft: false

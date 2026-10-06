@@ -1,14 +1,17 @@
 ---
-title: "WooCommerce Integration"
+title: "WooCommerce Spam & Fraud Protection Settings"
+linkTitle: "WooCommerce"
 date: 2026-07-30T11:02:05+06:00
 weight: 5
 draft: false
 type: "docs"
-description: "Advanced WooCommerce spam and fraud protection with oopspam. Learn about checkout protection, card testing prevention, honeypot, and order-level blocking features."
 keywords: ["woocommerce", "spam", "fraud", "card testing", "honeypot", "order blocking", "checkout"]
+description: "Stop fake orders, card testing and spam sign-ups in WooCommerce with oopspam: honeypot, origin checks, and blocking by order amount or billing address."
 ---
 
 The oopspam plugin provides deep WooCommerce integration that goes beyond basic spam detection. In addition to protecting registration, login, and checkout forms with the oopspam API, it includes a comprehensive set of anti-fraud features to protect your store from automated attacks, card testing, and fraudulent orders.
+
+For an overview of what oopspam does for stores, see [oopspam for WooCommerce](https://www.oopspam.com/woocommerce).
 
 ## Supported Forms
 
@@ -55,6 +58,9 @@ When WooCommerce Order Attribution is enabled, this feature blocks orders that c
 - **Toggle**: `Block orders from unknown origin`
 - **Payment Method Filter**: Optionally restrict origin checking to specific payment methods only (e.g., only check orders paid via credit card)
 
+
+Guide: [How to stop failed orders with unknown origin in WooCommerce](https://www.oopspam.com/blog/how-to-stop-failed-orders-with-unknown-origin-in-woocommerce)
+
 ---
 
 ### Minimum Session Page Views
@@ -82,6 +88,9 @@ Prevent fraudulent orders by blocking specific order total amounts. This is usef
 - **Example**: Enter `0.01`, `1.00`, `9.99` to block orders with those exact totals
 - **Returning customers** with completed orders are exempt
 
+
+Guide: [How to block specific order amounts in WooCommerce](https://www.oopspam.com/blog/how-to-block-specific-order-amounts-in-woocommerce)
+
 ---
 
 ### Block Orders by Billing Address
@@ -90,6 +99,9 @@ Block orders based on partial billing address matches. Useful for blocking known
 
 - **Setting**: `Block orders with specific billing addresses` — one address per line
 - **Returning customers** with completed orders are exempt
+
+
+Guide: [How to block orders by billing address in WooCommerce](https://www.oopspam.com/blog/how-to-block-orders-by-billing-address-in-woocommerce)
 
 ---
 
@@ -105,6 +117,9 @@ Two complementary features help prevent card testing attacks on your store:
 - **Setting**: `Block repeated same-amount orders`
 - **Window**: Configurable time window in hours (default: 1 hour)
 - **Returning customers** with completed orders are exempt
+
+
+Guide: [How we blocked 450,000 card testing attempts in one week](https://www.oopspam.com/blog/the-larget-card-testing-attack)
 
 ---
 
@@ -132,12 +147,19 @@ You can customize the error message displayed to users when their order is block
 
 ---
 
+## Related guides
+
+- [How to protect your store from fake orders, card testing and checkout spam](https://www.oopspam.com/blog/how-to-protect-your-store-from-fake-orders-card-testing-and-checkout-spam)
+- [5 ways to stop spam orders and registrations in WooCommerce](https://www.oopspam.com/blog/spam-protection-for-woocommerce)
+- [How to block VPN and data center IP traffic in your WooCommerce shop](https://www.oopspam.com/blog/how-to-block-vpn-and-data-center-ip-traffic-in-your-woocommerce-shop)
+- [Best fraud detection plugins for WordPress](https://www.oopspam.com/blog/best-fraud-detection-plugins-for-wordpress-in-2026)
+
 ## Next
 
 Explore more configuration options:
 
 {{< cards cols="3">}}
-{{< card link="../configuration" title="Configuration" icon="cog" subtitle="All plugin settings and options" >}}
-{{< card link="../hooks" title="Hooks" icon="code" subtitle="Developer hooks and filters" >}}
-{{< card link="../form-entries" title="Form Entries" icon="table" subtitle="View and manage spam entries" >}}
+{{< card link="../configuration/" title="Configuration" icon="cog" subtitle="All plugin settings and options" >}}
+{{< card link="../hooks/" title="Hooks" icon="code" subtitle="Developer hooks and filters" >}}
+{{< card link="../form-entries/" title="Form Entries" icon="table" subtitle="View and manage spam entries" >}}
 {{< /cards >}}
