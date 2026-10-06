@@ -23,7 +23,7 @@ To get started quickly, follow these steps:
 3. Select **"oopspam Dashboard"** from the **"I got my API Key from"** setting.
 4. Ensure that the **"Activate Spam Protection"** option is checked for the contact form plugin you are using.
 
-![Activate Spam Protection setting in oopspam WordPress plugin](oopspam-WooCommerce-Settings.png)
+![Activate Spam Protection setting in oopspam WordPress plugin](OOPSpam-WooCommerce-Settings.png)
 
 
 {{< callout >}}
